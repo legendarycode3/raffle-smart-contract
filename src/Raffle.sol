@@ -30,7 +30,7 @@ pragma solidity ^0.8.19;
 
 /**
  * @title  A Sample Raffle Contract
- * @author  Legendary Code 
+ * @author  LegendaryCode 
  * @notice  This contract is for creating a sample raffle 
  * @dev     Implements Chainlink  VRFv2.5
  */
@@ -38,14 +38,19 @@ pragma solidity ^0.8.19;
 
 contract Raffle {
     
+
     /** Errors */
     error Raffle__SendMoreEThToEnterRaffle();
 
+
     uint256 private immutable i_entranceFee;
+    address payable[] private s_players;
+
 
     constructor(uint256 entranceFee) {
         i_entranceFee = entranceFee;
     }
+
 
     function enterRaffle() public payable {
         // require(msg.value >= i_entranceFee, "Not enough ETH sent!");
@@ -54,9 +59,11 @@ contract Raffle {
         }
     }
 
+
     function pickWinner() public {
 
     }
+
 
     /**
      * GETTER FUNCTIONS
