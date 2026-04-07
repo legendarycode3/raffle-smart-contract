@@ -60,6 +60,9 @@ contract Raffle {
         if(msg.value >= i_entranceFee) {
             revert Raffle__SendMoreEThToEnterRaffle();
         }
+
+        s_players.push(payable(msg.sender));
+        emit RaffleEntered(msg.sender);
     }
 
 
