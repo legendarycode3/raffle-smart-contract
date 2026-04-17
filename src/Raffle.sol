@@ -104,14 +104,42 @@ contract Raffle is VRFConsumerBaseV2Plus {
         emit RaffleEntered(msg.sender);
     }
 
-    // 1. Get a random num.
-    // 2. Use that random num, to pick a player(s_players).
+   //When should the winner be picked ?
+   /**
+    * @dev This is the function that the chainlink nodes will call to see
+     * if the lottery is ready to have a winner picked.
+     * The following should be true in order for upKeepNeeded to be true.
+     * 1. The time interval has passed between raffle runs.
+     * 2. The lottery is open.
+     * 3. The contract has ETH.
+     * 4. Your subscription has LINK.
+    * @param - ignored 
+    * @return upkeepNeeded - true if it's time to restart the lottery.
+    * @return - ignored
+    */
+    function checkUpkeep(bytes memory /* checkData */) 
+        public view 
+        returns(bool upkeepNeeded, bytes memory /* performData */)
+    {
+        bool timeHasPassed =  ((block.timestamp - s_lastTimeStamp) >=  i_interval);
+        bool isOpen =  s_raffleState == RaffleState.OPEN;
+        bool hasBalance = address(this).balance > 0;
+        bool hasPlayers = s_players.length > 0;
+        upkeepNeeded = timeHasPassed && isOpen && hasBalance && hasPlayers;
+        return (upkeepNeeded, "");
+    }
+
     // 3. Be able to do this all time , automatically.
-    function pickWinner() external {
-        //Check to see if enough time has passed
-        if ((block.timestamp - s_lastTimeStamp) > i_interval) {
+    function performUpkeep(bytes calldata /* performData */) 
+        external 
+    {
+        (bool upkeepNeeded,) =  checkUpkeep("");
+        if(!upkeepNeeded){
             revert();
         }
+        //Check to see if enough time has passed
+       
+
 
         //   s_raffleState = RaffleState.CALCULATING; THIS IS TO PREVENT ANYONE FROM ENTERING THE RAFFLE WHILE WE ARE CALCULATING THE WINNER
         s_raffleState = RaffleState.CALCULATING;
@@ -131,7 +159,10 @@ contract Raffle is VRFConsumerBaseV2Plus {
 
 
     function fulfillRandomWords(uint256 requestId, uint256[] calldata randomWords) internal override {
+        // CHECKS (Validate the inputs and conditions to ensure that the function can execute successfully)
+
         
+        // Effect (Updating the state of the contract) - Internal Contract State
         uint256 indexOfWinner = randomWords[0] % s_players.length;
         address payable recentWinner = s_players[indexOfWinner];
         s_recentWinner = recentWinner;
@@ -141,13 +172,16 @@ contract Raffle is VRFConsumerBaseV2Plus {
         s_players = new address payable[](0);
         s_lastTimeStamp = block.timestamp;
 
+        emit WinnerPicked(s_recentWinner);
 
+
+        
+        // Interactions (External Contract Interactions)
         (bool success, ) = recentWinner.call{value: address(this).balance}("");
         if(!success) {
             revert Raffle__TransferFailed();
         }
-
-        emit WinnerPicked(s_recentWinner);
+        // emit WinnerPicked(s_recentWinner);
     }
 
 
