@@ -43,12 +43,13 @@ contract Raffle is VRFConsumerBaseV2Plus {
     error Raffle__SendMoreEThToEnterRaffle();
     error Raffle__TransferFailed();
     error Raffle__RaffleNotOpen();
+    error Raffle__UpKeepNotNeeded(uint256 balance, uint256 playersLength, uint256 raffleState);
 
 
     /** Type Declarations */
     enum RaffleState {
-        OPEN,
-        CALCULATING
+        OPEN,      // 0
+        CALCULATING  // 1
     }
 
 
@@ -129,17 +130,17 @@ contract Raffle is VRFConsumerBaseV2Plus {
         return (upkeepNeeded, "");
     }
 
+
     // 3. Be able to do this all time , automatically.
     function performUpkeep(bytes calldata /* performData */) 
         external 
     {
         (bool upkeepNeeded,) =  checkUpkeep("");
         if(!upkeepNeeded){
-            revert();
+           revert Raffle__UpKeepNotNeeded(address(this).balance, s_players.length, uint256(s_raffleState));
         }
         //Check to see if enough time has passed
        
-
 
         //   s_raffleState = RaffleState.CALCULATING; THIS IS TO PREVENT ANYONE FROM ENTERING THE RAFFLE WHILE WE ARE CALCULATING THE WINNER
         s_raffleState = RaffleState.CALCULATING;
@@ -154,11 +155,11 @@ contract Raffle is VRFConsumerBaseV2Plus {
                 VRFV2PlusClient.ExtraArgsV1({nativePayment: false})
             )
         });
-        uint256 requestId = s_vrfCoordinator.requestRandomWords(request);
+        s_vrfCoordinator.requestRandomWords(request);
     }
 
 
-    function fulfillRandomWords(uint256 requestId, uint256[] calldata randomWords) internal override {
+    function fulfillRandomWords(uint256 /*requestId*/, uint256[] calldata randomWords) internal override {
         // CHECKS (Validate the inputs and conditions to ensure that the function can execute successfully)
 
         
