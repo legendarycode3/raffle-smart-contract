@@ -1,25 +1,4 @@
-// Layout of Contract:
-// license
-// version
-// imports
-// errors
-// interfaces, libraries, contracts
-// Type declarations
-// State variables
-// Events
-// Modifiers
-// Functions
 
-// Layout of Functions:
-// constructor
-// receive function (if exists)
-// fallback function (if exists)
-// external
-// public
-// internal
-// private
-// internal & private view & pure functions
-// external & public view & pure functions
 
 // SPDX-License-Identifier: MIT
 
@@ -53,6 +32,7 @@ contract Raffle is VRFConsumerBaseV2Plus {
     }
 
 
+
     /** State Variables */
     uint16 private constant REQUEST_CONFIRMATIONS = 3;
     uint32 private constant NUM_WORDS = 1;
@@ -63,13 +43,13 @@ contract Raffle is VRFConsumerBaseV2Plus {
     uint32 private immutable i_callbackGasLimit;
     address payable[] private s_players;
 
-    // @dev The duration of the lottery in seconds.
+    /// @dev The duration of the lottery in seconds.
     uint256 private s_lastTimeStamp;
     address private s_recentWinner;
     RaffleState private s_raffleState;
 
 
-
+    /** Events */
     event RaffleEntered(address indexed player);
     event WinnerPicked(address indexed winner);
 
@@ -91,8 +71,10 @@ contract Raffle is VRFConsumerBaseV2Plus {
         s_raffleState = RaffleState.OPEN;
     }
 
+
+
+    /** Functions */
     function enterRaffle() external payable {
-        // require(msg.value >= i_entranceFee, "Not enough ETH sent!");
         if (msg.value < i_entranceFee) {
             revert Raffle__SendMoreEThToEnterRaffle();
         }
@@ -105,7 +87,7 @@ contract Raffle is VRFConsumerBaseV2Plus {
         emit RaffleEntered(msg.sender);
     }
 
-   //When should the winner be picked ?
+   /// @notice When should the winner be picked ?
    /**
     * @dev This is the function that the chainlink nodes will call to see
      * if the lottery is ready to have a winner picked.
@@ -118,6 +100,7 @@ contract Raffle is VRFConsumerBaseV2Plus {
     * @return upkeepNeeded - true if it's time to restart the lottery.
     * @return - ignored
     */
+
     function checkUpkeep(bytes memory /* checkData */) 
         public view 
         returns(bool upkeepNeeded, bytes memory /* performData */)
@@ -131,7 +114,7 @@ contract Raffle is VRFConsumerBaseV2Plus {
     }
 
 
-    // 3. Be able to do this all time , automatically.
+    /// @notice 3. Be able to do this all time , automatically.
     function performUpkeep(bytes calldata /* performData */) 
         external 
     {
@@ -139,10 +122,10 @@ contract Raffle is VRFConsumerBaseV2Plus {
         if(!upkeepNeeded){
            revert Raffle__UpKeepNotNeeded(address(this).balance, s_players.length, uint256(s_raffleState));
         }
-        //Check to see if enough time has passed
+        /// @notice Check to see if enough time has passed
        
 
-        //   s_raffleState = RaffleState.CALCULATING; THIS IS TO PREVENT ANYONE FROM ENTERING THE RAFFLE WHILE WE ARE CALCULATING THE WINNER
+        /// @notice s_raffleState = RaffleState.CALCULATING; THIS IS TO PREVENT ANYONE FROM ENTERING THE RAFFLE WHILE WE ARE CALCULATING THE WINNER
         s_raffleState = RaffleState.CALCULATING;
         VRFV2PlusClient.RandomWordsRequest memory request = VRFV2PlusClient.RandomWordsRequest({
             keyHash: i_keyHash,
@@ -151,7 +134,7 @@ contract Raffle is VRFConsumerBaseV2Plus {
             callbackGasLimit: i_callbackGasLimit,
             numWords: NUM_WORDS,
             extraArgs: VRFV2PlusClient._argsToBytes(
-                // Set nativePayment to true to pay for VRF requests with Sepolia ETH instead of LINK
+                /// @notice Set nativePayment to true to pay for VRF requests with Sepolia ETH instead of LINK
                 VRFV2PlusClient.ExtraArgsV1({nativePayment: false})
             )
         });
@@ -160,35 +143,28 @@ contract Raffle is VRFConsumerBaseV2Plus {
 
 
     function fulfillRandomWords(uint256 /*requestId*/, uint256[] calldata randomWords) internal override {
-        // CHECKS (Validate the inputs and conditions to ensure that the function can execute successfully)
+        /// @notice CHECKS (Validate the inputs and conditions to ensure that the function can execute successfully)
 
         
-        // Effect (Updating the state of the contract) - Internal Contract State
+        /// @notice Effect (Updating the state of the contract) - Internal Contract State
         uint256 indexOfWinner = randomWords[0] % s_players.length;
         address payable recentWinner = s_players[indexOfWinner];
         s_recentWinner = recentWinner;
-
 
         s_raffleState = RaffleState.OPEN;
         s_players = new address payable[](0);
         s_lastTimeStamp = block.timestamp;
 
         emit WinnerPicked(s_recentWinner);
-
-
         
-        // Interactions (External Contract Interactions)
+        /// @notice Interactions (External Contract Interactions)
         (bool success, ) = recentWinner.call{value: address(this).balance}("");
         if(!success) {
             revert Raffle__TransferFailed();
         }
-        // emit WinnerPicked(s_recentWinner);
     }
 
-
-    /**
-     * GETTER FUNCTIONS
-     */
+    /// @notice Getter function
     function getEntranceFee() external view returns (uint256) {
         return i_entranceFee;
     }
