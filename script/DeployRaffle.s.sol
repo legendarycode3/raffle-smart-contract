@@ -4,7 +4,7 @@ pragma solidity ^0.8.19;
 
 import {Script} from "forge-std/Script.sol";
 import {Raffle} from "../src/Raffle.sol";
-import {HelperConfig} from "../script/HelperConfig.s.sol";
+import {HelperConfig} from "script/HelperConfig.s.sol";
 
 contract DeployRaffle is Script {
 
@@ -12,7 +12,27 @@ contract DeployRaffle is Script {
 
     }
 
-    // function deployContract() public returns(Raffle, HelperConfig) {
+    function deployContract() public returns(Raffle, HelperConfig) {
+        HelperConfig helperConfig = new HelperConfig();
 
-    // }
+        /// @notice If we are on Local Network => Deploy on Mocks , getLocalConfig
+        /// @notice And if we are on Sepolia Network => getSepoliaConfig()
+        HelperConfig.NetworkConfig memory config = helperConfig.getConfig(); 
+
+        vm.startBroadcast();
+
+        Raffle raffle = new Raffle(
+            config.entranceFee,
+            config.interval,
+            config.vrfCoordinator,
+            config.gasLane,
+            config.subscriptionId,
+            config.callBackGasLimit
+        );
+
+        vm.stopBroadcast();
+
+        return (raffle, helperConfig);
+    }
+
 }
