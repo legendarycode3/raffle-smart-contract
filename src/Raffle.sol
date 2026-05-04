@@ -45,14 +45,20 @@ contract Raffle is VRFConsumerBaseV2Plus {
 
     /// @dev The duration of the lottery in seconds.
     uint256 private s_lastTimeStamp;
+
     address private s_recentWinner;
-    RaffleState private s_raffleState;
+
+    /// @notice The lottery will start as OPEN
+    RaffleState private s_raffleState;  
 
 
     /** Events */
     event RaffleEntered(address indexed player);
     event WinnerPicked(address indexed winner);
+    event RequestedRaffleWinner(uint256 indexed requestId);
 
+
+    /// @notice The "constructor" runs once when the contract is deployed. It sets up the initial states.
     constructor(
         uint256 entranceFee,
         uint256 interval,
@@ -67,8 +73,8 @@ contract Raffle is VRFConsumerBaseV2Plus {
         i_subscriptionId = subscriptionId;
         i_callbackGasLimit = callbackGasLimit;
 
-        s_lastTimeStamp = block.timestamp;
-        s_raffleState = RaffleState.OPEN;
+        s_lastTimeStamp = block.timestamp; /// @notice Initial Timestamp
+        s_raffleState = RaffleState.OPEN; /// @notice Initial Raffle State
     }
 
 
@@ -114,7 +120,7 @@ contract Raffle is VRFConsumerBaseV2Plus {
     }
 
 
-    /// @notice 3. Be able to do this all time , automatically.
+    /// @notice perform() function 3. Be able to do this all time , automatically.
     function performUpkeep(bytes calldata /* performData */) 
         external 
     {
@@ -122,10 +128,10 @@ contract Raffle is VRFConsumerBaseV2Plus {
         if(!upkeepNeeded){
            revert Raffle__UpKeepNotNeeded(address(this).balance, s_players.length, uint256(s_raffleState));
         }
-        /// @notice Check to see if enough time has passed
+
        
 
-        /// @notice s_raffleState = RaffleState.CALCULATING; THIS IS TO PREVENT ANYONE FROM ENTERING THE RAFFLE WHILE WE ARE CALCULATING THE WINNER
+        //s_raffleState = RaffleState.CALCULATING; THIS IS TO PREVENT ANYONE FROM ENTERING THE RAFFLE WHILE WE ARE CALCULATING THE WINNER
         s_raffleState = RaffleState.CALCULATING;
         VRFV2PlusClient.RandomWordsRequest memory request = VRFV2PlusClient.RandomWordsRequest({
             keyHash: i_keyHash,
@@ -134,19 +140,20 @@ contract Raffle is VRFConsumerBaseV2Plus {
             callbackGasLimit: i_callbackGasLimit,
             numWords: NUM_WORDS,
             extraArgs: VRFV2PlusClient._argsToBytes(
-                /// @notice Set nativePayment to true to pay for VRF requests with Sepolia ETH instead of LINK
+                // Set nativePayment to true to pay for VRF requests with Sepolia ETH instead of LINK
                 VRFV2PlusClient.ExtraArgsV1({nativePayment: false})
             )
         });
-        s_vrfCoordinator.requestRandomWords(request);
+        uint256 requestId = s_vrfCoordinator.requestRandomWords(request);
+        emit RequestedRaffleWinner(requestId);
     }
 
 
     function fulfillRandomWords(uint256 /*requestId*/, uint256[] calldata randomWords) internal override {
-        /// @notice CHECKS (Validate the inputs and conditions to ensure that the function can execute successfully)
+        // CHECKS (Validate the inputs and conditions to ensure that the function can execute successfully)
 
         
-        /// @notice Effect (Updating the state of the contract) - Internal Contract State
+        // Effect (Updating the state of the contract) - Internal Contract State
         uint256 indexOfWinner = randomWords[0] % s_players.length;
         address payable recentWinner = s_players[indexOfWinner];
         s_recentWinner = recentWinner;
@@ -157,15 +164,35 @@ contract Raffle is VRFConsumerBaseV2Plus {
 
         emit WinnerPicked(s_recentWinner);
         
-        /// @notice Interactions (External Contract Interactions)
+        // Interactions (External Contract Interactions)
         (bool success, ) = recentWinner.call{value: address(this).balance}("");
         if(!success) {
             revert Raffle__TransferFailed();
         }
     }
 
-    /// @notice Getter function
+    /// @notice Getter function for i_entranceFee (since it made private)
     function getEntranceFee() external view returns (uint256) {
         return i_entranceFee;
     }
+
+    /// @notice Getter function for RaffleState (since it made private)
+    function getRaffleState() external view returns (RaffleState ) {
+        return s_raffleState;
+    }
+
+    /// @notice Getter function for getPlayers Array. To be able to get players
+    function getPlayer(uint256 indexOfPlayer) external view returns(address) {
+        return s_players[indexOfPlayer];
+    }
+
+    function getLastTimeStamp() external view returns(uint256){
+        return s_lastTimeStamp;
+    }
+
+    /// @notice Getter function for getRecentWinner  function.
+    function getRecentWinner() external view returns(address){
+        return s_recentWinner;
+    }
+
 }

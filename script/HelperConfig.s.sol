@@ -5,6 +5,8 @@ pragma solidity ^0.8.19;
 import {Script} from "forge-std/Script.sol";
 import {VRFCoordinatorV2_5Mock} from "@chainlink/contracts/src/v0.8/vrf/mocks/VRFCoordinatorV2_5Mock.sol";
 
+import {LinkToken} from "test/mocks/LinkToken.sol";
+
 abstract contract CodeConstants {
      /**VRF mock values */
    uint96 public MOCK_BASE_FEE = 0.25 ether;
@@ -31,6 +33,9 @@ contract HelperConfig is CodeConstants , Script {
         bytes32 gasLane;
         uint32  callBackGasLimit;
         uint256 subscriptionId;
+        address link;
+
+        address account;  
     }
 
 
@@ -77,7 +82,11 @@ contract HelperConfig is CodeConstants , Script {
             vrfCoordinator: 0x9DdfaCa8183c41ad55329BdeeD9F6A8d53168B1B,
             gasLane: 0x787d74caea10b2b357790d5b5247c2f63d1d91572a9846f780606e4d953677ae,
             callBackGasLimit:  500000,
-            subscriptionId: 0
+            // subscriptionId: 0,
+            subscriptionId: 25760043579731968670614058049197899905132052888181808778480938542200031012638,
+            link: 0x779877A7B0D9E8603169DdbD7836e478b4624789,
+
+            account: 0x949FD2058a9C8ECaCdc8cEf377066058DD17454A
         });
     }
 
@@ -93,6 +102,8 @@ contract HelperConfig is CodeConstants , Script {
 
         VRFCoordinatorV2_5Mock vrfCoordinatorMock = new VRFCoordinatorV2_5Mock(MOCK_BASE_FEE, MOCK_GAS_PRICE_LINK, MOCK_WEI_PER_UNIT_LINK);
 
+        LinkToken linkToken = new LinkToken();
+
         vm.stopBroadcast();
 
         localNetworkConfig = NetworkConfig({
@@ -101,7 +112,10 @@ contract HelperConfig is CodeConstants , Script {
             vrfCoordinator: address(vrfCoordinatorMock),
             gasLane: 0x787d74caea10b2b357790d5b5247c2f63d1d91572a9846f780606e4d953677ae,
             callBackGasLimit:  500000, // 500,000 gas (I Hardcoded It)
-            subscriptionId: 0
+            subscriptionId: 0,
+            link: address(linkToken),
+             account:  0x1804c8AB1F12E6bbf3894d4083f33e07309d1f38
+          
         }); 
         return localNetworkConfig;
     }
