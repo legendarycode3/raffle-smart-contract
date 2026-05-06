@@ -1,3 +1,3 @@
 ​
-# Proveably Random Raffle Contracts
+# Proveably Random Raffle Smart Contracts
 ​
