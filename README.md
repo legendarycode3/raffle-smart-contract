@@ -33,3 +33,18 @@ The project is a decentralized Raffle/Lottery system which :
 * [GIT](https://git-scm.com/)
 
 ## Project Structure
+    ├── script
+    │   ├── DeployRaffle.s.sol
+    │   ├── HelperConfig.s.sol
+    │   └── Interaction.s.sol
+    ├── src
+    │   └── Raffle.sol
+    └── test
+        ├── integration
+        │   └── IntegrationTest.t.sol
+        ├── mocks
+        │   └── LinkToken.sol
+        └── unit
+            └── RaffleTest.t.sol
+        ├── foundry.toml
+        └── README.md
