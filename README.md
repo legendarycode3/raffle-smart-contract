@@ -1,6 +1,6 @@
 ​
 # Proveably Random Raffle Smart Contracts
-​A decentralized raffle application built
+​A decentralized raffle application built with Solidity and Foundry, leveraging
 
 ## Project Overview
 The project is a decentralized Raffle/Lottery system which :
