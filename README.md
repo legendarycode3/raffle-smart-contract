@@ -50,7 +50,7 @@ The project is a decentralized Raffle/Lottery system which :
         └── README.md
 
 ## Security Considerations
-* The contract securely transfers Ether to the winner only if it ensures the contract has sufficient balance
+* The contract securely transfers Ether to the winner only if it ensures the contract has sufficient balance before processing the transfer.
 * Uses Chainlink VRF for cryptographically secure randomness.
 
 ## Author
