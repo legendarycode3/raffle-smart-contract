@@ -6,7 +6,7 @@
 ## Project Structure
 
 ## Features
-****Decentralized Entry Mechanism:****
+****Decentralized Entry Mechanism:**** Allows participants to buy tickets securely by
 * ****Automated Execution (Chainlink Automation):**** Chainlink Automation triggers winner selection  based on specific triggers at predetermined intervals.
 * ****Provably Fair Random Winner Selection:**** The winner is selected randomly using Chainlink VRF.
 * ****Transparency & Auditability:**** All participants, ticket purchases, and winner selections are recorded on a public ledger, allowing anyone to verify the results.
