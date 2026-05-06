@@ -14,7 +14,7 @@
 * ****Transparency & Auditability:**** All participants, ticket purchases, and winner selections are recorded on a public ledger, allowing anyone to verify the results.
 * ****Event Logging:**** Emits events for key actions (e.g., WinnerPicked) that allow interfaces to display real-time updates to users on the blockchain.
 * ****Gas Optimization:**** Developed with smart contract best practices for gas efficiency, to reduce cost.
-* ****Intensive Testing:****
+* ****Intensive Testing:**** Includes several testing mechanism. They include: unit tests, integration tests, and fork tests.
 
 ## Technology Stack (Technologies Used)
 * ****Solidity**** : The programming language for writing the Smart contracts.
