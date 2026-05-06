@@ -14,4 +14,5 @@
 * ****Chainlink VRF**** : Tamper-proof random number generator (RNG)
 
 ## Getting Started
+### Prerequisites
 * [GIT](https://www.getfoundry.sh/introduction/installation)
