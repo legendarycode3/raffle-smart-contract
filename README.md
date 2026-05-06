@@ -19,8 +19,8 @@ The project is a decentralized Raffle/Lottery system which :
 * ****Gas Optimization:**** Developed with smart contract best practices for gas efficiency, to reduce cost.
 * ****Transparency & Auditability:**** All participants, ticket purchases, and winner selections are recorded on a public ledger, allowing anyone to verify the results.
 * ****Event Logging:**** Emits events for key actions (e.g., WinnerPicked) that allow interfaces to display real-time updates to users on the blockchain.
-* ****Intensive Testing:**** Includes several testing mechanism. They include: unit tests, integration tests, and fork tests.
-* ****Blockchain Transparency:****
+* ****Intensive Testing:**** Includes several  testing mechanism. They include: unit tests, integration tests, and fork tests.
+* ****Blockchain Transparency:**** Every transaction and role assignment is recorded on the Ethereum blockchain for transparency.
   
 ## Technology Stack (Technologies Used)
 * ****Solidity**** : The programming language for writing the Smart contracts.
