@@ -2,8 +2,9 @@
 # Proveably Random Raffle Smart Contracts
 ​
 ## Project Overview
-The project is a decentralized Raffle/Lottery system which allows:
-* users to enter a raffle , after paying an entrance fee.
+The project is a decentralized Raffle/Lottery system which :
+* Allows Users to enter a raffle , after paying an entrance fee.
+* Winners are selected at random using Chainlink VRF (Verifiable Random Function).
 
 ## Project Structure
 
