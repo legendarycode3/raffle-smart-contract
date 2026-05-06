@@ -20,6 +20,7 @@ The project is a decentralized Raffle/Lottery system which :
 * ****Transparency & Auditability:**** All participants, ticket purchases, and winner selections are recorded on a public ledger, allowing anyone to verify the results.
 * ****Event Logging:**** Emits events for key actions (e.g., WinnerPicked) that allow interfaces to display real-time updates to users on the blockchain.
 * ****Intensive Testing:**** Includes several testing mechanism. They include: unit tests, integration tests, and fork tests.
+* ****Blockchain Transparency:****
   
 ## Technology Stack (Technologies Used)
 * ****Solidity**** : The programming language for writing the Smart contracts.
