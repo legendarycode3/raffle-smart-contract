@@ -26,7 +26,7 @@ contract RaffleTest is CodeConstants, Test {
 
     /// @notice Used this "makeAddr", to create a Fake-User usining foundry cheatcode (to make a test)
     address public PLAYER = makeAddr("player");
-    uint256 public constant STARTING_PLAYER_BALANCE =  10 ether;
+    uint256 public constant STARTING_PLAYER_BALANCE =  1 ether;
 
     event RaffleEntered(address indexed player);
     event WinnerPicked(address indexed winner);
@@ -323,6 +323,27 @@ contract RaffleTest is CodeConstants, Test {
    
 
 
+    function testFullRaffleFlow() public {
+        address player = address(1);
+        vm.deal(player, 2 ether);
+
+        uint256 entranceFee = raffle.getEntranceFee();
+
+        // Enter raffle
+        vm.prank(player);
+        raffle.enterRaffle{value: entranceFee}();
+
+        // Move time forward
+        vm.warp(block.timestamp + 1 hours);
+        vm.roll(block.number + 1);
+
+        // Perform upkeep
+        raffle.performUpkeep("");
+
+        // Assert raffle is calculating
+        uint256 state = uint256(raffle.getRaffleState());
+        assertEq(state, 1); // CALCULATING
+    }
 
 
 

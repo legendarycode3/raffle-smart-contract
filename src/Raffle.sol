@@ -8,6 +8,7 @@ import {VRFConsumerBaseV2Plus} from "@chainlink/contracts/src/v0.8/vrf/dev/VRFCo
 
 // import {VRFV2PlusClient} from "@chainlink/contracts/src/v0.8/dev/vrf/libraries/VRFV2PlusClient.sol";
 import {VRFV2PlusClient} from "@chainlink/contracts/src/v0.8/vrf/dev/libraries/VRFV2PlusClient.sol";
+import {console} from "forge-std/console.sol";
 
 /**
  * @title  A Sample Raffle Contract
@@ -81,6 +82,8 @@ contract Raffle is VRFConsumerBaseV2Plus {
 
     /** Functions */
     function enterRaffle() external payable {
+        
+
         if (msg.value < i_entranceFee) {
             revert Raffle__SendMoreEThToEnterRaffle();
         }

@@ -35,6 +35,8 @@ contract DeployRaffle is Script {
         }
 
         vm.startBroadcast(config.account);
+
+        // Deploy the Raffle
         Raffle raffle = new Raffle(
             config.entranceFee,
             config.interval,
@@ -46,7 +48,7 @@ contract DeployRaffle is Script {
 
         vm.stopBroadcast();
 
-        //
+        //Add the Raffle as a consumer
         AddConsumer addConsumer = new AddConsumer();
         addConsumer.addConsumer(address(raffle),  config.vrfCoordinator, config.subscriptionId,  config.account);
 
