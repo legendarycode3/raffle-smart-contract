@@ -15,4 +15,5 @@
 
 ## Getting Started
 ### Prerequisites
-* [GIT](https://www.getfoundry.sh/introduction/installation)
+* [FOUNDRY](https://www.getfoundry.sh/introduction/installation)
+* [GIT](https://git-scm.com/)
