@@ -9,7 +9,6 @@ The project is a decentralized Raffle/Lottery system which :
 * A Winner selection is automated using Chainlink Automation (which automatically triggers the draw after a set time or a certain number of participants).
 * The entire prize pool is automatically sent to the winner address, immediately upon drawing the winner, ensuring guaranteed payouts.
 
-## Project Structure
 
 ## Features
 * ****Decentralized Entry Mechanism:**** Allows participants to buy tickets securely by sending the correct native cryptocurrency (e.g., ETH) or tokens to the contract, eliminating third-party processors.
@@ -32,3 +31,5 @@ The project is a decentralized Raffle/Lottery system which :
 ### Prerequisites
 * [FOUNDRY](https://www.getfoundry.sh/introduction/installation)
 * [GIT](https://git-scm.com/)
+
+## Project Structure
