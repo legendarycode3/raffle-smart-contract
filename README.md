@@ -2,7 +2,8 @@
 # Proveably Random Raffle Smart Contracts
 ​
 ## Project Overview
-The project is a decentralized Raffle/Lottery system which:
+The project is a decentralized Raffle/Lottery system which allows:
+* users to enter a raffle , after paying an entrance fee.
 
 ## Project Structure
 
