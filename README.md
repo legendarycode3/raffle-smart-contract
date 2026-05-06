@@ -50,6 +50,7 @@ The project is a decentralized Raffle/Lottery system which :
         └── README.md
 
 ## Security Considerations
+* Uses Chainlink VRF for cryptographically secure randomness.
 
 ## Author
 Feel free to explore and improve the project. Contributions, issues, and feature requests are welcome!  ❤️
