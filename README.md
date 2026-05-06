@@ -8,7 +8,7 @@
 ## Features
 * ****Chainlink Automated Execution:**** Chainlink Automation triggers winner selection  based on specific triggers at predetermined intervals.
 * ****Provably Fair Random Winner Selection:**** The winner is selected randomly using Chainlink VRF.
-* ****Transparency & Auditability:**** All participants, ticket purchases
+* ****Transparency & Auditability:**** All participants, ticket purchases, and winner selections are recorded on a public ledger, allowing anyone to verify the results.
 
 ## Technology Stack (Technologies Used)
 * ****Solidity**** : The programming language for writing the Smart contracts.
