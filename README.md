@@ -1,11 +1,13 @@
 ​
 # Proveably Random Raffle Smart Contracts
 ​
+
 ## Project Overview
 The project is a decentralized Raffle/Lottery system which :
 * Allows Users to enter a raffle , after paying an entrance fee.
 * Winners are selected at random using Chainlink VRF (Verifiable Random Function).
 * A Winner selection is automated using Chainlink Automation (which automatically triggers the draw after a set time or a certain number of participants).
+* The entire prize pool is automatically sent to the winner address
 
 ## Project Structure
 
@@ -15,11 +17,11 @@ The project is a decentralized Raffle/Lottery system which :
 * ****Automated Execution (Chainlink Automation):**** Chainlink Automation triggers winner selection  based on specific triggers at predetermined intervals. Uses automated, time-based triggers to close the raffle and initiate the winner selection process without requiring human intervention.
 * ****Automated Prize Distribution:****  Automatically sends the accumulated prize pool to the winning address immediately upon drawing the winner, ensuring guaranteed payouts.
 * ****Raffle State Management:**** Define distinct states, such as `OPEN`, `CALCULATING` (drawing), and `CLOSED` , to prevent entries after the deadline and manage the lifecycle of the raffle.
+* ****Gas Optimization:**** Developed with smart contract best practices for gas efficiency, to reduce cost.
 * ****Transparency & Auditability:**** All participants, ticket purchases, and winner selections are recorded on a public ledger, allowing anyone to verify the results.
 * ****Event Logging:**** Emits events for key actions (e.g., WinnerPicked) that allow interfaces to display real-time updates to users on the blockchain.
-* ****Gas Optimization:**** Developed with smart contract best practices for gas efficiency, to reduce cost.
 * ****Intensive Testing:**** Includes several testing mechanism. They include: unit tests, integration tests, and fork tests.
-
+  
 ## Technology Stack (Technologies Used)
 * ****Solidity**** : The programming language for writing the Smart contracts.
 * ****Foundry**** : Development framework and testing suite.
