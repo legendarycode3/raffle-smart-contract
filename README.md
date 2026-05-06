@@ -6,6 +6,7 @@
 ## Project Structure
 
 ## Features
+* ****Chainlink Automated Execution:****
 * ****Provably Fair Random Winner Selection:**** The winner is selected randomly using Chainlink VRF.
 
 ## Technology Stack (Technologies Used)
