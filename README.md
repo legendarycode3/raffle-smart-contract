@@ -60,3 +60,4 @@ The project is a decentralized Raffle/Lottery system which :
 Feel free to explore and improve the project. Contributions, issues, and feature requests are welcome!  ❤️
 
 ## Conclusion
+This project demonstrates how smart contracts on the Ethereum blockchain can enable decentralized and trustless
