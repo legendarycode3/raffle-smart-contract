@@ -6,12 +6,13 @@
 ## Project Structure
 
 ## Features
+* ****Random Winner Selection:****
 
 ## Technology Stack (Technologies Used)
 * ****Solidity**** : The programming language for writing the Smart contracts.
 * ****Foundry**** : Development framework and testing suite.
 * ****Chainlink Automation**** : Decentralized, secure, and cost-efficient Web3 services network.
-* ****Chainlink VRF**** : Tamper-proof random number generator (RNG)
+* ****Chainlink VRF V2.5**** : Tamper-proof random number generator (RNG)
 
 ## Getting Started
 ### Prerequisites
