@@ -2,6 +2,7 @@
 # Proveably Random Raffle Smart Contracts
 ​
 ## Project Overview
+The project is a decentralized Raffle/Lottery system which:
 
 ## Project Structure
 
