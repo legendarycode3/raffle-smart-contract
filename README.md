@@ -54,6 +54,7 @@ The project is a decentralized Raffle/Lottery system which :
 * Uses Chainlink VRF for cryptographically secure randomness.
 * Executes checks-effects-interactions smart contract pattern.
 * Fulfils State changes before external calls to prevent reentrancy.
+* Intensive test coverage.
 
 ## Author
 Feel free to explore and improve the project. Contributions, issues, and feature requests are welcome!  ❤️
