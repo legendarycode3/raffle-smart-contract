@@ -48,3 +48,5 @@ The project is a decentralized Raffle/Lottery system which :
             └── RaffleTest.t.sol
         ├── foundry.toml
         └── README.md
+
+## Contributing
