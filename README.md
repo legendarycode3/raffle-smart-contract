@@ -6,7 +6,7 @@
 ## Project Structure
 
 ## Features
-* ****Random Winner Selection:**** The winner is selected randomly using Chainlink VRF.
+* ****Provably Fair Random Winner Selection:**** The winner is selected randomly using Chainlink VRF.
 
 ## Technology Stack (Technologies Used)
 * ****Solidity**** : The programming language for writing the Smart contracts.
