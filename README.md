@@ -6,7 +6,7 @@
 ## Project Structure
 
 ## Features
-* ****Chainlink Automated Execution:****
+* ****Chainlink Automated Execution:**** Chainlink Automation triggers winner selection  based on specific triggers at predetermined intervals.
 * ****Provably Fair Random Winner Selection:**** The winner is selected randomly using Chainlink VRF.
 
 ## Technology Stack (Technologies Used)
