@@ -61,7 +61,7 @@ The project is a decentralized Raffle/Lottery system which :
 ### LegendaryCode  
 * LinkedIn: [@legendarycode3](https://www.linkedin.com/legendarycode3)
 * Twitter: [@legendary_code_](https://x.com/legendary_code_)
-* Github:
+* Github: [@legendarycode3](https://github.com/legendarycode3)
 Feel free to explore and improve the project. Contributions, issues, and feature requests are welcome!  ❤️
 
 ## Conclusion
