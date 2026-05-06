@@ -6,7 +6,7 @@ pragma solidity ^0.8.19;
 
 import {VRFConsumerBaseV2Plus} from "@chainlink/contracts/src/v0.8/vrf/dev/VRFConsumerBaseV2Plus.sol";
 
-// import {VRFV2PlusClient} from "@chainlink/contracts/src/v0.8/dev/vrf/libraries/VRFV2PlusClient.sol";
+
 import {VRFV2PlusClient} from "@chainlink/contracts/src/v0.8/vrf/dev/libraries/VRFV2PlusClient.sol";
 import {console} from "forge-std/console.sol";
 
@@ -189,6 +189,8 @@ contract Raffle is VRFConsumerBaseV2Plus {
         return s_players[indexOfPlayer];
     }
 
+    /// @notice Returns the timestamp of the last successful update
+    /// @return The uint256 timestamp stored in s_lastTimeStamp
     function getLastTimeStamp() external view returns(uint256){
         return s_lastTimeStamp;
     }
