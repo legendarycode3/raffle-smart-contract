@@ -36,13 +36,13 @@ The project is a decentralized Raffle/Lottery system which :
 * [GIT](https://git-scm.com/)
 
 ## Project Structure
-    ├── script                     # Deployment and interaction scripts
+    ├── script                     #  deployment, configuration, and interaction scripts directory
     │   ├── DeployRaffle.s.sol     # Main deployment script
     │   ├── HelperConfig.s.sol
     │   └── Interaction.s.sol      # Chainlink interaction scripts
-    ├── src                        # Smart contracts main source code
-    │   └── Raffle.sol        
-    └── test                        # Test files
+    ├── src                        # Smart contracts directory 
+    │   └── Raffle.sol             # Smart contracts main source code
+    └── test                        # Test files directory
         ├── integration
         │   └── IntegrationTest.t.sol
         ├── mocks
