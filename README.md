@@ -50,7 +50,7 @@ The project is a decentralized Raffle/Lottery system which :
         └── unit
             └── RaffleTest.t.sol
         ├── foundry.toml             # Foundry configuration
-        └── README.md
+        └── README.md                # This entire text documents
 
 ## Security Considerations
 * The contract securely transfers Ether to the winner only if it ensures the contract has sufficient balance before processing the transfer.
