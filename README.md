@@ -58,6 +58,7 @@ The project is a decentralized Raffle/Lottery system which :
 * Executes checks-effects-interactions smart contract pattern.
 * Fulfils State changes before external calls to prevent reentrancy.
 * Intensive test coverage.
+* Consider professional audit before mainnet deployment
 
 ## Author
 ### LegendaryCode  
