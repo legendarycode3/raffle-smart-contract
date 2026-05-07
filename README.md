@@ -42,7 +42,7 @@ The project is a decentralized Raffle/Lottery system which :
     │   └── Interaction.s.sol      # Chainlink interaction scripts
     ├── src                        # Smart contracts source code
     │   └── Raffle.sol
-    └── test
+    └── test                        # Test files
         ├── integration
         │   └── IntegrationTest.t.sol
         ├── mocks
