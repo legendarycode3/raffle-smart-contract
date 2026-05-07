@@ -40,8 +40,8 @@ The project is a decentralized Raffle/Lottery system which :
     │   ├── DeployRaffle.s.sol     # Main deployment script
     │   ├── HelperConfig.s.sol
     │   └── Interaction.s.sol      # Chainlink interaction scripts
-    ├── src                        # Smart contracts source code
-    │   └── Raffle.sol
+    ├── src                        # Smart contracts main source code
+    │   └── Raffle.sol        
     └── test                        # Test files
         ├── integration
         │   └── IntegrationTest.t.sol
@@ -49,7 +49,7 @@ The project is a decentralized Raffle/Lottery system which :
         │   └── LinkToken.sol
         └── unit
             └── RaffleTest.t.sol
-        ├── foundry.toml
+        ├── foundry.toml             # Foundry configuration
         └── README.md
 
 ## Security Considerations
