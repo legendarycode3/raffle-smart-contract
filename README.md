@@ -36,11 +36,11 @@ The project is a decentralized Raffle/Lottery system which :
 * [GIT](https://git-scm.com/)
 
 ## Project Structure
-    ├── script
-    │   ├── DeployRaffle.s.sol     # Smart contracts source code
+    ├── script                     # Deployment and interaction scripts
+    │   ├── DeployRaffle.s.sol     
     │   ├── HelperConfig.s.sol
     │   └── Interaction.s.sol
-    ├── src
+    ├── src                        # Smart contracts source code
     │   └── Raffle.sol
     └── test
         ├── integration
