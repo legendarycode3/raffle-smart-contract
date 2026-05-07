@@ -37,7 +37,7 @@ The project is a decentralized Raffle/Lottery system which :
 
 ## Project Structure
     ├── script
-    │   ├── DeployRaffle.s.sol
+    │   ├── DeployRaffle.s.sol     # Smart contracts source code
     │   ├── HelperConfig.s.sol
     │   └── Interaction.s.sol
     ├── src
