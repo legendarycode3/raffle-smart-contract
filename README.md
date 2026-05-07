@@ -45,8 +45,8 @@ The project is a decentralized Raffle/Lottery system which :
     └── test                        # Test files directory
         ├── integration
         │   └── IntegrationTest.t.sol
-        ├── mocks
-        │   └── LinkToken.sol
+        ├── mocks                  # development/testing contract directory
+        │   └── LinkToken.sol      # dummy testing contract designed to simulate the real Chainlink LINK token on a local blockchain when test with mock
         └── unit
             └── RaffleTest.t.sol
         ├── foundry.toml             # Foundry configuration
