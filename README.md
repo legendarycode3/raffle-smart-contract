@@ -127,6 +127,7 @@ Check raffle state:
 * ****`getEntranceFee()`:****
 * ****`getRaffleState()`:****
 * ****`getPlayer(uint256)`:****
+* ****`getRecentWinner()`:****
 
 ## Configuration
 Create a .env file with the following variables:
