@@ -127,6 +127,7 @@ Check raffle state:
 * ****`getEntranceFee()`:**** Returns the minimum ETH required to enter the raffle.
 * ****`getRaffleState()`:****  Returns the current state of the raffle (e.g., OPEN, CALCULATING).
 * ****`getPlayer(uint256)`:**** Returns the address of a player given their index.
+* ****`getLastTimeStamp()`:****
 * ****`getRecentWinner()`:****
 
 ## Configuration
