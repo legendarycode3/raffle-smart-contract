@@ -99,6 +99,7 @@ You can estimate how much gas things cost by running:
   ```shell
      cast <subcommand>
   ```
+### Help
     
 
 ## Contract Details
