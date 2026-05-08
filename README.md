@@ -152,6 +152,7 @@ Create a .env file with the following variables:
 
 ## Gas Optimization
 * Optimized iteration and data structure operations
+* Implemented custom errors for gas efficiency
 * Efficient storage patterns
 
 ## Learn More (Resources)
