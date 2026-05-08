@@ -66,6 +66,7 @@ Deploy to Sepolia testnet:
     make deploy-sepolia
   ```
 ### Testing
+Run all tests:
 
 ## Contract Details
 
