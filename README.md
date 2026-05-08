@@ -83,7 +83,9 @@ Run specific test:
     forge test --mt testFunctionName
   ```
 Test coverage:
-
+  ```shell
+    make coverage
+  ```
 
 ## Contract Details
 
