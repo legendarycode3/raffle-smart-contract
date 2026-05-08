@@ -91,6 +91,9 @@ Test coverage:
     forge fmt
   ```
 ### Gas Snapshots
+You can estimate how much gas things cost by running:
+  ```shell
+    
 
 ## Contract Details
 
