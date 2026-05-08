@@ -130,6 +130,8 @@ Check raffle state:
 * ****`getLastTimeStamp()`:**** Returns the timestamp of the last recorded action.
 * ****`getRecentWinner()`:**** Returns the address of the winner from the previous round.
 
+### Constants and Variables:
+
 ## Configuration
 Create a .env file with the following variables:
   ```shell
