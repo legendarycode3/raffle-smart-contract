@@ -87,6 +87,9 @@ Test coverage:
     make coverage
   ```
 ### Format
+ ```shell
+    forge fmt
+  ```
 
 ## Contract Details
 
