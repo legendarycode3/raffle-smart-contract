@@ -151,6 +151,7 @@ Create a .env file with the following variables:
 * Consider professional audit before mainnet deployment
 
 ## Gas Optimization
+* Efficient storage patterns
 
 ## Learn More (Resources)
 * [Solidity Documentation](https://docs.soliditylang.org/en/v0.8.35-pre.1/)
