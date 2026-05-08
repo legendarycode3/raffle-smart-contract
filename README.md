@@ -117,12 +117,13 @@ Check raffle state:
   ```
 
 ## Smart Contract Details
-### Functions
+### Main Functions
 * ****`enterRaffle()`:**** Enter the raffle after paying the entrance fee
 * ****`checkUpkeep()`:**** Ensures to Check if raffle conditions are met for winner selection  
 * ****`performUpkeep()`:**** Initiate / Triggers the winner selection process
 * ****`fulfillRandomWords()`:**** Randomness request fulfillment function. Callback function for Chainlink VRF
 
+### View Functions
 
 ## Configuration
 Create a .env file with the following variables:
