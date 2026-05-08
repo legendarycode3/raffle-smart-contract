@@ -64,6 +64,8 @@ The project is a decentralized Raffle/Lottery system which :
 * Intensive test coverage covers edge cases.
 * Consider professional audit before mainnet deployment
 
+## Gas Optimization
+
 ## Author
 ### LegendaryCode  
 * LinkedIn: [@legendarycode3](https://www.linkedin.com/legendarycode3)
