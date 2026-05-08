@@ -43,6 +43,7 @@ The project is a decentralized Raffle/Lottery system which :
    ```shell
      cd raffle-smart-contract
    ```
+2. Install dependencies:
 
 ## Usage
 
