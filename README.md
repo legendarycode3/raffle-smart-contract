@@ -68,12 +68,13 @@ Deploy to Sepolia testnet:
 ### Testing
 Run all tests:
   ```shell
-    forge test
+    make test
   ```
   Or
   ```shell
-    make test
+    forge test
   ```
+Run tests with verbosity:
 
 ## Contract Details
 
