@@ -136,7 +136,7 @@ Check raffle state:
 * ****`i_entranceFee`:**** The minimum amount of ETH required to enter the raffle.
 * ****`i_interval`:**** Time interval set at deployment (e.g., in seconds).
 * ****`i_keyHash`:****  The key hash for the Chainlink VRF Coordinator, identifying the gas lane.
-* ****`i_subscriptionId`:****
+* ****`i_subscriptionId`:**** Subscription ID assigned by Chainlink/external service at deploymen.
 * ****`i_callbackGasLimit`:****
 * ****`s_players`:****
 
