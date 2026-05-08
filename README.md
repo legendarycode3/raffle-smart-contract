@@ -66,6 +66,8 @@ The project is a decentralized Raffle/Lottery system which :
 
 ## Gas Optimization
 
+## Learn More (Resources)
+
 ## Author
 ### LegendaryCode  
 * LinkedIn: [@legendarycode3](https://www.linkedin.com/legendarycode3)
