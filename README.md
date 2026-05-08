@@ -100,6 +100,11 @@ You can estimate how much gas things cost by running:
      cast <subcommand>
   ```
 ### Help
+  ```shell
+    forge --help
+    anvil --help
+    cast --help
+  ```
     
 
 ## Contract Details
