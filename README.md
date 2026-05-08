@@ -119,6 +119,7 @@ Check raffle state:
 ## Smart Contract Details
 ### Functions
 * ****`enterRaffle()`:****
+* ****`performUpkeep()`:****
 
 ## Configuration
 Create a .env file with the following variables:
