@@ -120,6 +120,10 @@ Check raffle state:
 
 ## Configuration
 Create a .env file with the following variables:
+  ```shell
+    SEPOLIA_RPC_URL=your_sepolia_rpc_url
+    ETHERSCAN_API_KEY=your_etherscan_api_key
+  ```
 
 ## Project Structure
     ├── script                     #  deployment, configuration, and interaction scripts directory
