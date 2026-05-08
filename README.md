@@ -120,7 +120,8 @@ Check raffle state:
 ### Functions
 * ****`enterRaffle()`:****
 * ****`performUpkeep()`:****
-* ****`fulfillRandomWords()`****
+* ****`fulfillRandomWords()`:****
+* ****`checkUpkeep()`:****
 
 ## Configuration
 Create a .env file with the following variables:
