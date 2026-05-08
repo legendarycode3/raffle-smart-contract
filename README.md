@@ -131,7 +131,7 @@ Check raffle state:
 * ****`getRecentWinner()`:**** Returns the address of the winner from the previous round.
 
 ### Constants and Variables:
-* ****`REQUEST_CONFIRMATIONS`:****
+* ****`REQUEST_CONFIRMATIONS`:****  How many confirmations the Chainlink node should wait before responding.
 
 ## Configuration
 Create a .env file with the following variables:
