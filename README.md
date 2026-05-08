@@ -110,7 +110,8 @@ You can estimate how much gas things cost by running:
 Enter the raffle:
   ```shell
     cast send <RAFFLE_ADDRESS> "enterRaffle()" --value 0.01ether --rpc-url $SEPOLIA_RPC_URL --account yourEncryptedAccount
-    
+  ```
+Check raffle state:
 
 ## Contract Details
 
