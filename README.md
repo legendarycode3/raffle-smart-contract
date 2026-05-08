@@ -133,7 +133,7 @@ Check raffle state:
 ### Constants and Variables:
 * ****`REQUEST_CONFIRMATIONS`:****  How many confirmations the Chainlink node should wait before responding.
 * ****`NUM_WORDS`:**** The number of words/slots to request from the oracle.
-* ****`i_entranceFee`:****
+* ****`i_entranceFee`:**** The minimum amount of ETH required to enter the raffle.
 * ****`i_interval`:****
 * ****`i_keyHash`:****
 * ****`i_subscriptionId`:****
