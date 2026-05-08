@@ -37,6 +37,9 @@ The project is a decentralized Raffle/Lottery system which :
 
 ### Installation
 1. Clone the repository:
+   ```shell
+        git clone https://github.com/legendarycode3/raffle-smart-contract
+   ```
 
 ## Usage
 
