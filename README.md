@@ -136,6 +136,7 @@ Check raffle state:
 * ****`i_entranceFee`:****
 * ****`i_interval`:****
 * ****`i_keyHash`:****
+* ****`i_subscriptionId`:****
 
 ## Configuration
 Create a .env file with the following variables:
