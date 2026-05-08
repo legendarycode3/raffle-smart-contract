@@ -134,6 +134,7 @@ Check raffle state:
 * ****`REQUEST_CONFIRMATIONS`:****  How many confirmations the Chainlink node should wait before responding.
 * ****`NUM_WORDS`:****
 * ****`i_entranceFee`:****
+* ****`i_interval`:****
 
 ## Configuration
 Create a .env file with the following variables:
