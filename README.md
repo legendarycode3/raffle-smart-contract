@@ -124,7 +124,7 @@ Check raffle state:
 * ****`fulfillRandomWords()`:**** Randomness request fulfillment function. Callback function for Chainlink VRF
 
 ### View Functions
-* ****`getEntranceFee()`:****
+* ****`getEntranceFee()`:**** Returns the minimum ETH required to enter the raffle
 * ****`getRaffleState()`:****
 * ****`getPlayer(uint256)`:****
 * ****`getRecentWinner()`:****
