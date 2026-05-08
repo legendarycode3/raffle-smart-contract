@@ -44,6 +44,9 @@ The project is a decentralized Raffle/Lottery system which :
      cd raffle-smart-contract
    ```
 2. Install dependencies:
+   ```shell
+     make install
+   ```
 
 ## Usage
 
