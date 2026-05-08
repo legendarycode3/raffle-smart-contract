@@ -40,6 +40,9 @@ The project is a decentralized Raffle/Lottery system which :
    ```shell
         git clone https://github.com/legendarycode3/raffle-smart-contract
    ```
+   ```shell
+     cd raffle-smart-contract
+   ```
 
 ## Usage
 
