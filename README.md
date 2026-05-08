@@ -79,6 +79,9 @@ Run tests with verbosity:
     make test -vvv
   ```
 Run specific test:
+  ```shell
+    forge test --mt testFunctionName
+  ```
 
 ## Contract Details
 
