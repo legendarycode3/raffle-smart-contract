@@ -131,6 +131,7 @@ Check raffle state:
 * ****`getRecentWinner()`:**** Returns the address of the winner from the previous round.
 
 ### Constants and Variables:
+* ****`REQUEST_CONFIRMATIONS`:****
 
 ## Configuration
 Create a .env file with the following variables:
