@@ -57,6 +57,9 @@ The project is a decentralized Raffle/Lottery system which :
 ## Usage
 ### Building the Project
 Compile the smart contracts:
+  ```shell
+     make build
+  ```
 
 ## Contract Details
 
