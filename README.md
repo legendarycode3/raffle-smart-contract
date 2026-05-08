@@ -112,6 +112,9 @@ Enter the raffle:
     cast send <RAFFLE_ADDRESS> "enterRaffle()" --value 0.01ether --rpc-url $SEPOLIA_RPC_URL --account yourEncryptedAccount
   ```
 Check raffle state:
+  ```shell
+    cast call <RAFFLE_ADDRESS> "getRaffleState()" --rpc-url $SEPOLIA_RPC_URL
+  ```
 
 ## Contract Details
 
