@@ -127,8 +127,8 @@ Check raffle state:
 * ****`getEntranceFee()`:**** Returns the minimum ETH required to enter the raffle.
 * ****`getRaffleState()`:****  Returns the current state of the raffle (e.g., OPEN, CALCULATING).
 * ****`getPlayer(uint256)`:**** Returns the address of a player given their index.
-* ****`getLastTimeStamp()`:**** Returns the timestamp of the last recorded action
-* ****`getRecentWinner()`:****
+* ****`getLastTimeStamp()`:**** Returns the timestamp of the last recorded action.
+* ****`getRecentWinner()`:**** Returns the address of the winner from the previous round.
 
 ## Configuration
 Create a .env file with the following variables:
