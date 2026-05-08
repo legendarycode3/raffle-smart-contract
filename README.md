@@ -36,6 +36,7 @@ The project is a decentralized Raffle/Lottery system which :
 * [GIT](https://git-scm.com/)
 
 ### Installation
+1. Clone the repository:
 
 ## Usage
 
