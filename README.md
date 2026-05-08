@@ -60,6 +60,7 @@ Compile the smart contracts:
   ```shell
      make build
   ```
+### Deploy
 
 ## Contract Details
 
