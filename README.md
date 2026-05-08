@@ -151,6 +151,7 @@ Create a .env file with the following variables:
 * Consider professional audit before mainnet deployment
 
 ## Gas Optimization
+* Optimized iteration and data structure operations
 * Efficient storage patterns
 
 ## Learn More (Resources)
