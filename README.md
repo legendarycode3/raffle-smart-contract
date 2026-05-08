@@ -78,6 +78,7 @@ Run tests with verbosity:
   ```shell
     make test -vvv
   ```
+Run specific test:
 
 ## Contract Details
 
