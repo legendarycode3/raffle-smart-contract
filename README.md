@@ -50,6 +50,8 @@ The project is a decentralized Raffle/Lottery system which :
 3. Build the project:
    ```shell
      make build
+     # or
+     forge build
    ```
 
 ## Usage
