@@ -86,6 +86,7 @@ Test coverage:
   ```shell
     make coverage
   ```
+### Format
 
 ## Contract Details
 
