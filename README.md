@@ -61,6 +61,7 @@ Compile the smart contracts:
      make build
   ```
 ### Deploy
+Deploy to Sepolia testnet:
 
 ## Contract Details
 
