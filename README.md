@@ -95,6 +95,7 @@ You can estimate how much gas things cost by running:
   ```shell
      forge snapshot
   ```
+### Cast
     
 
 ## Contract Details
