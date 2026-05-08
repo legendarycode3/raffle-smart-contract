@@ -35,6 +35,8 @@ The project is a decentralized Raffle/Lottery system which :
 * [FOUNDRY](https://www.getfoundry.sh/introduction/installation)
 * [GIT](https://git-scm.com/)
 
+### Installation
+
 ## Usage
 
 ## Contract Details
