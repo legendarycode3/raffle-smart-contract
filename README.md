@@ -67,6 +67,7 @@ The project is a decentralized Raffle/Lottery system which :
 ## Gas Optimization
 
 ## Learn More (Resources)
+* [Solidity Documentation](https://docs.soliditylang.org/en/v0.8.35-pre.1/)
 
 ## Author
 ### LegendaryCode  
