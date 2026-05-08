@@ -135,7 +135,7 @@ Check raffle state:
 * ****`NUM_WORDS`:**** The number of words/slots to request from the oracle.
 * ****`i_entranceFee`:**** The minimum amount of ETH required to enter the raffle.
 * ****`i_interval`:**** Time interval set at deployment (e.g., in seconds).
-* ****`i_keyHash`:****
+* ****`i_keyHash`:****  The key hash for the Chainlink VRF Coordinator, identifying the gas lane.
 * ****`i_subscriptionId`:****
 * ****`i_callbackGasLimit`:****
 * ****`s_players`:****
