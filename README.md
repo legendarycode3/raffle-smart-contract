@@ -106,7 +106,8 @@ You can estimate how much gas things cost by running:
     cast --help
   ```
 
-### Interacting
+### Interaction
+Enter the raffle:
     
 
 ## Contract Details
