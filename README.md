@@ -119,6 +119,7 @@ Check raffle state:
 ## Smart Contract Details
 
 ## Configuration
+Create a .env file with the following variables:
 
 ## Project Structure
     ├── script                     #  deployment, configuration, and interaction scripts directory
