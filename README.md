@@ -138,6 +138,7 @@ Check raffle state:
 * ****`i_keyHash`:****
 * ****`i_subscriptionId`:****
 * ****`i_callbackGasLimit`:****
+* ****`s_players`:****
 
 ## Configuration
 Create a .env file with the following variables:
