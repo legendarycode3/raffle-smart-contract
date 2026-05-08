@@ -105,6 +105,8 @@ You can estimate how much gas things cost by running:
     anvil --help
     cast --help
   ```
+
+### Interacting
     
 
 ## Contract Details
