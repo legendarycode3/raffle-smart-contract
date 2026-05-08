@@ -124,6 +124,7 @@ Check raffle state:
 * ****`fulfillRandomWords()`:**** Randomness request fulfillment function. Callback function for Chainlink VRF
 
 ### View Functions
+* ****`getEntranceFee()`:****
 
 ## Configuration
 Create a .env file with the following variables:
