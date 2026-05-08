@@ -48,6 +48,9 @@ The project is a decentralized Raffle/Lottery system which :
      make install
    ```
 3. Build the project:
+   ```shell
+     make build
+   ```
 
 ## Usage
 
