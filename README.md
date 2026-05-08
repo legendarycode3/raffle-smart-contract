@@ -125,6 +125,7 @@ Check raffle state:
 
 ### View Functions
 * ****`getEntranceFee()`:****
+* ****`getRaffleState()`:****
 
 ## Configuration
 Create a .env file with the following variables:
