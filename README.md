@@ -119,8 +119,8 @@ Check raffle state:
 ## Smart Contract Details
 ### Functions
 * ****`enterRaffle()`:**** Enter the raffle after paying the entrance fee
-* ****`checkUpkeep()`:**** Check and ensure if raffle conditions are met for winner selection  
-* ****`performUpkeep()`:****
+* ****`checkUpkeep()`:**** Ensures to Check if raffle conditions are met for winner selection  
+* ****`performUpkeep()`:**** Initiate / Triggers the winner selection process
 * ****`fulfillRandomWords()`:****
 
 
