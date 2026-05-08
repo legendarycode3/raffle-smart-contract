@@ -118,7 +118,7 @@ Check raffle state:
 
 ## Smart Contract Details
 ### Functions
-* ****`enterRaffle()`:****
+* ****`enterRaffle()`:**** Enter the raffle after paying the entrance fee
 * ****`performUpkeep()`:****
 * ****`fulfillRandomWords()`:****
 * ****`checkUpkeep()`:****
