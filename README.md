@@ -90,6 +90,7 @@ Test coverage:
  ```shell
     forge fmt
   ```
+### Gas Snapshots
 
 ## Contract Details
 
