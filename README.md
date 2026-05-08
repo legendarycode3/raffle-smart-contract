@@ -119,9 +119,10 @@ Check raffle state:
 ## Smart Contract Details
 ### Functions
 * ****`enterRaffle()`:**** Enter the raffle after paying the entrance fee
+* ****`checkUpkeep()`:**** Check and ensure if raffle conditions are met for winner selection  
 * ****`performUpkeep()`:****
 * ****`fulfillRandomWords()`:****
-* ****`checkUpkeep()`:****
+
 
 ## Configuration
 Create a .env file with the following variables:
