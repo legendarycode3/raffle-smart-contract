@@ -75,6 +75,9 @@ Run all tests:
     forge test
   ```
 Run tests with verbosity:
+  ```shell
+    make test -vvv
+  ```
 
 ## Contract Details
 
