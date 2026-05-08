@@ -67,6 +67,9 @@ Deploy to Sepolia testnet:
   ```
 ### Testing
 Run all tests:
+  ```shell
+    forge test
+  ```
 
 ## Contract Details
 
