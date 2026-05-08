@@ -70,6 +70,10 @@ Run all tests:
   ```shell
     forge test
   ```
+  Or
+  ```shell
+    make test
+  ```
 
 ## Contract Details
 
