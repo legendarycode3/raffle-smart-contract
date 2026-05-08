@@ -37,6 +37,8 @@ The project is a decentralized Raffle/Lottery system which :
 
 ## Usage
 
+## Contract Details
+
 ## Project Structure
     ├── script                     #  deployment, configuration, and interaction scripts directory
     │   ├── DeployRaffle.s.sol     # Main deployment script
