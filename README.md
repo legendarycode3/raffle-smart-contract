@@ -138,7 +138,7 @@ Check raffle state:
 * ****`i_keyHash`:****  The key hash for the Chainlink VRF Coordinator, identifying the gas lane.
 * ****`i_subscriptionId`:**** Subscription ID assigned by Chainlink/external service at deploymen.
 * ****`i_callbackGasLimit`:**** The maximum gas allowed for the callback function (e.g., fulfillRandomWords).
-* ****`s_players`:****
+* ****`s_players`:****  Array of players allowed to receive ETH, managed privately.
 
 ## Configuration
 Create a .env file with the following variables:
@@ -170,12 +170,12 @@ Create a .env file with the following variables:
 * Executes checks-effects-interactions smart contract pattern.
 * Fulfils State changes before external calls to prevent reentrancy.
 * Intensive test coverage covers edge cases.
-* Consider professional audit before mainnet deployment
+* Consider professional audit before mainnet deployment.
 
 ## Gas Optimization
-* Optimized iteration and data structure operations
-* Implemented custom errors for gas efficiency
-* Efficient storage patterns
+* Optimized iteration and data structure operations.
+* Implemented custom errors for gas efficiency.
+* Efficient storage patterns.
 
 ## Learn More (Resources)
 * [Solidity Documentation](https://docs.soliditylang.org/en/v0.8.35-pre.1/)
