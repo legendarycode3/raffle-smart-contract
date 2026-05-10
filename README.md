@@ -202,7 +202,7 @@ Create a .env file with the following variables:
 
 ## Makefile
 A Makefile is included to streamline commands for cleaning, building, testing, updating, formatting, deployment, and
-more. You can use it to execute tasks without needing to remember specific commands. Just run the command you
+more. You can use it to execute tasks without needing to remember specific commands. Just run the command you need like this:
 
 ## Learn More (Resources)
 * [Solidity Documentation](https://docs.soliditylang.org/en/v0.8.35-pre.1/)
