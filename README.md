@@ -116,6 +116,7 @@ Check raffle state:
     cast call <RAFFLE_ADDRESS> "getRaffleState()" --rpc-url $SEPOLIA_RPC_URL
   ```
 ## How It Works (Simple Flow)
+1. ****Entry Raffle(Phase):****
 
 ## Smart Contract Details
 ### Main Functions
