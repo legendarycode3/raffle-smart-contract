@@ -125,6 +125,7 @@ Check raffle state:
 3. ****Winner Selection:**** When conditions are satisfied, the function `performUpkeep()` is called:
   * Raffle status updated to `CALCULATING`.
   * Random number request initiated (sent to Chainlink VRF).
+4. ****Fulfillment:****
 
 ## Smart Contract Details
 ### Main Functions
