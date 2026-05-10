@@ -122,6 +122,7 @@ Check raffle state:
   * Raffle entry is in OPEN state.
   * Contract holds sufficient ETH(atleast 2 players).
   * Subscription funded(LINK deposit successful).
+3. ****Winner Selection:****
 
 ## Smart Contract Details
 ### Main Functions
