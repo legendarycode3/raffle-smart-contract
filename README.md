@@ -117,26 +117,26 @@ Check raffle state:
   ```
 ## How It Works (Simple Flow)
 1. ****Entry Raffle(Phase):**** Players can send the required entrance fee to the contract to join the current raffle round, by calling `enterRaffle()`. The players addresses are stored in an array. What happens here:
-  * Checks if a player entry fee is enough.
-  * Stores player address.
-  * Adds ETH to contract balance.
+    * Checks if a player entry fee is enough.
+    * Stores player address.
+    * Adds ETH to contract balance.
 2. ****Upkeep Check(Automated):**** Chainlink Automation detects that if the raffle is ready to pick a winner or not, based on the following checks:  
-  * Raffle entry is in `OPEN` state.
-  * Enough time has passed.
-  * Contract holds sufficient ETH(atleast 1 to 2 players).
-  * Subscription funded(LINK deposit successful).
+    * Raffle entry is in `OPEN` state.
+    * Enough time has passed.
+    * Contract holds sufficient ETH(atleast 1 to 2 players).
+    * Subscription funded(LINK deposit successful).
 3. ****Winner Selection:**** When conditions are satisfied, the function `performUpkeep()` is called:
-  * Raffle status updated to `CALCULATING`.
-  * Random number request initiated (from Chainlink VRF).
+    * Raffle status updated to `CALCULATING`.
+    * Random number request initiated (from Chainlink VRF).
 4. ****Fulfillment:**** The Chainlink VRF automatically calls the `fulfillRandomWords()`:
-  * Random number is received
-  * Random winner calculated via modulo.
-  * Prize awarded to winner and transfered.
+    * Random number is received
+    * Random winner calculated via modulo.
+    * Prize awarded to winner and transfered.
 5. ****Raffle Resets for Next Round:**** </br>
     After payout:
-  * Players array is cleared.
-  * Timestamp is reset.
-  * State goes back to OPEN.
+    * Players array is cleared.
+    * Timestamp is reset.
+    * State goes back to OPEN.
     Raffle reopens for new round.
 
 ## Smart Contract Details
@@ -199,6 +199,8 @@ Create a .env file with the following variables:
 * Optimized iteration and data structure operations.
 * Implemented custom errors for gas efficiency.
 * Efficient storage patterns.
+
+## Makefile
 
 ## Learn More (Resources)
 * [Solidity Documentation](https://docs.soliditylang.org/en/v0.8.35-pre.1/)
