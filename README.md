@@ -136,6 +136,7 @@ Check raffle state:
     After payout:
   * Players array is cleared.
   * Timestamp is reset.
+  * State goes back to OPEN.
     Raffle reopens for new round.
 
 ## Smart Contract Details
