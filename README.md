@@ -134,6 +134,7 @@ Check raffle state:
   * Prize awarded to winner and transfered.
 5. ****Reset Raffle for Next Round:**** </br>
     After payout:
+  * Players array is cleared.
     Raffle reopens for new round.
 
 ## Smart Contract Details
