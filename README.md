@@ -128,6 +128,7 @@ Check raffle state:
 4. ****Fulfillment:**** The Chainlink VRF automatically calls the `fulfillRandomWords()`:
   * Random winner calculated via modulo.
   * Prize awarded to winner and transfered.
+  * Raffle reopens for new round.
 
 ## Smart Contract Details
 ### Main Functions
