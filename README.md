@@ -121,17 +121,18 @@ Check raffle state:
   * Stores player address.
   * Adds ETH to contract balance.
 2. ****Upkeep Check(Automated):**** Chainlink Automation detects that if the raffle is ready to pick a winner or not, based on the following checks:  
-  * Interval has elapsed.
   * Raffle entry is in `OPEN` state.
-  * Contract holds sufficient ETH(atleast 2 players).
+  * Enough time has passed.
+  * Contract holds sufficient ETH(atleast 1 to 2 players).
   * Subscription funded(LINK deposit successful).
 3. ****Winner Selection:**** When conditions are satisfied, the function `performUpkeep()` is called:
   * Raffle status updated to `CALCULATING`.
-  * Random number request initiated (sent to Chainlink VRF).
+  * Random number request initiated (from Chainlink VRF).
 4. ****Fulfillment:**** The Chainlink VRF automatically calls the `fulfillRandomWords()`:
+  * Random number is received
   * Random winner calculated via modulo.
   * Prize awarded to winner and transfered.
-  * Raffle reopens for new round.
+5. ****Reset Raffle for Next Round:****
 
 ## Smart Contract Details
 ### Main Functions
