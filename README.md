@@ -119,10 +119,11 @@ Check raffle state:
 1. ****Entry Raffle(Phase):**** Players can send the required entrance fee to the contract to join the current raffle round, by calling `enterRaffle()`. The players addresses are stored in an array.
 2. ****Upkeep Check(Automated):**** Chainlink Automation detects that if the raffle is ready to pick a winner or not, based on the following checks:  
   * Interval has elapsed.
-  * Raffle entry is in OPEN state.
+  * Raffle entry is in `OPEN` state.
   * Contract holds sufficient ETH(atleast 2 players).
   * Subscription funded(LINK deposit successful).
 3. ****Winner Selection:**** When conditions are satisfied, the function `performUpkeep()` is called:
+  * Raffle status updated to `CALCULATING`.
 
 ## Smart Contract Details
 ### Main Functions
