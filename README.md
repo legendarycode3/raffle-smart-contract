@@ -132,7 +132,9 @@ Check raffle state:
   * Random number is received
   * Random winner calculated via modulo.
   * Prize awarded to winner and transfered.
-5. ****Reset Raffle for Next Round:****
+5. ****Reset Raffle for Next Round:**** </br>
+    After payout:
+    Raffle reopens for new round.
 
 ## Smart Contract Details
 ### Main Functions
