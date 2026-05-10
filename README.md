@@ -117,6 +117,7 @@ Check raffle state:
   ```
 ## How It Works (Simple Flow)
 1. ****Entry Raffle(Phase):**** Players can send the required entrance fee to the contract to join the current raffle round, by calling `enterRaffle()`. The players addresses are stored in an array.
+2. ****Upkeep Check:****
 
 ## Smart Contract Details
 ### Main Functions
