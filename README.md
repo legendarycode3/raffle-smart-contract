@@ -124,7 +124,7 @@ Check raffle state:
   * Subscription funded(LINK deposit successful).
 3. ****Winner Selection:**** When conditions are satisfied, the function `performUpkeep()` is called:
   * Raffle status updated to `CALCULATING`.
-  * Random number request initiated
+  * Random number request initiated (sent to Chainlink VRF).
 
 ## Smart Contract Details
 ### Main Functions
