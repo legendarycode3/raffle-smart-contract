@@ -201,6 +201,7 @@ Create a .env file with the following variables:
 * Efficient storage patterns.
 
 ## Makefile
+A Makefile is included to streamline commands for cleaning, building, testing, updating, formatting, deployment, and
 
 ## Learn More (Resources)
 * [Solidity Documentation](https://docs.soliditylang.org/en/v0.8.35-pre.1/)
