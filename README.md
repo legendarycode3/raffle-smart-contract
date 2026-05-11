@@ -76,7 +76,10 @@ The project is a decentralized Raffle/Lottery system which :
       cast wallet list
   ```
   * **If no encrypted keys found**
-    * Encrypt private key to be used securely within foundry: 
+    * Encrypt private key to be used securely within foundry:
+  ```shell
+     cast wallet import <account_name> --interactive
+  ```
 
 ## Usage
 ### Building the Project
