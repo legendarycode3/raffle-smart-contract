@@ -220,6 +220,7 @@ Run tests with different verbosity levels:
 ### Local Development (Anvil)
 * RPC URL: `http://localhost:8545`
 * Chain ID: 31337
+* Default funded accounts available already
 
 
 ## Security Considerations
