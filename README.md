@@ -218,7 +218,7 @@ Run tests with different verbosity levels:
 
 ## Network Configuration
 ### Local Development (Anvil)
-* RPC URL:
+* RPC URL: `http://localhost:8545`
 
 
 ## Security Considerations
