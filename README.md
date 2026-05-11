@@ -62,7 +62,7 @@ The project is a decentralized Raffle/Lottery system which :
       ETHERSCAN_SEPOLIA_API_KEY=your_etherscan_api_key
    ```
 2. **Get testnet ETH & LINK:**
-   * ETH Sepolia Faucet:
+   * ETH Sepolia Faucet: [Eth Sepolia Faucet](https://cloud.google.com/application/web3/faucet/ethereum/sepolia) .
 
 ## Usage
 ### Building the Project
