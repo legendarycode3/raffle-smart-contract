@@ -191,7 +191,7 @@ Create a .env file with the following variables:
 The main raffle contract implementation:
 
 ### Chainlink Integration
-* ****VRF (Verifiable Random Function):****
+* ****VRF (Verifiable Random Function):**** Provides cryptographically secure randomness
 
 ### Testing
 
