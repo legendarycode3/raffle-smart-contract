@@ -56,6 +56,7 @@ The project is a decentralized Raffle/Lottery system which :
      forge build
    ```
 ### Environment Setup
+1. Configure your `.env` file:
 
 ## Usage
 ### Building the Project
