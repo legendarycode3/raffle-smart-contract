@@ -191,6 +191,7 @@ Create a .env file with the following variables:
 The main raffle contract implementation:
 * Entry raffle fee payment.
 * Player registration for the raffle commencement.
+* Integration with Chainlink VRF to activate random winner selection.
 
 ### Chainlink Integration
 * ****VRF (Verifiable Random Function):**** Provides cryptographically secure randomness.
