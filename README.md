@@ -200,6 +200,7 @@ The project includes intensive tests covering:
 * Raffle entry flow mechanics.
 * Chainlink VRF integration (for randomness).
 * Automation functionality.
+* Edge cases and error handling.
 
 
 ## Security Considerations
