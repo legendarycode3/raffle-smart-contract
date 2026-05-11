@@ -219,6 +219,7 @@ Run tests with different verbosity levels:
 ## Network Configuration
 ### Local Development (Anvil)
 * RPC URL: `http://localhost:8545`
+* Chain ID: 31337
 
 
 ## Security Considerations
