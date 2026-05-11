@@ -166,7 +166,7 @@ Check raffle state:
 Create a .env file with the following variables:
   ```shell
     SEPOLIA_RPC_URL=your_sepolia_rpc_url
-    ETHERSCAN_API_KEY=your_etherscan_api_key
+    ETHERSCAN_SEPOLIA_API_KEY=your_etherscan_api_key
   ```
 
 ## Project Structure
@@ -185,6 +185,8 @@ Create a .env file with the following variables:
             └── RaffleTest.t.sol
         ├── foundry.toml             # Foundry configuration
         └── README.md                # This entire text documents
+
+## Smart Contract Architecture
 
 ## Security Considerations
 * The contract securely transfers Ether to the winner only if it ensures the contract has sufficient balance before processing the transfer.
