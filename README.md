@@ -170,24 +170,25 @@ Create a .env file with the following variables:
   ```
 
 ## Project Structure
-    ├── script                           #  deployment, configuration, and interaction scripts directory
-    │   ├── DeployRaffle.s.sol           # Main deployment script
-    │   ├── HelperConfig.s.sol           # Network configuration script
-    │   └── Interaction.s.sol            # Chainlink interaction scripts (VRF subscription management)
-    ├── src                              # Smart contracts directory 
-    │   └── Raffle.sol                   # Smart contracts main source code(raffle contract logic)
-    └── test                             # Test files directory
+    ├── script                             #  deployment, configuration, and interaction scripts directory
+    │   ├── DeployRaffle.s.sol             # Main deployment script
+    │   ├── HelperConfig.s.sol             # Network configuration script
+    │   └── Interaction.s.sol              # Chainlink interaction scripts (VRF subscription management)
+    ├── src                                # Smart contracts directory 
+    │   └── Raffle.sol                     # Smart contracts main source code(raffle contract logic)
+    └── test                               # Test files directory
     │     ├── integration
-    │     │   └── IntegrationTest.t.sol  # Integration tests
-    │     ├── mocks                      # development/testing contract directory
-    │     │   └── LinkToken.sol          # dummy testing contract designed to simulate the real Chainlink LINK token on a local blockchain when test with mock
+    │     │   └── IntegrationTest.t.sol    # Integration tests
+    │     ├── mocks                        # development/testing contract directory
+    │     │   └── LinkToken.sol            # dummy testing contract designed to simulate the real Chainlink LINK token on a local blockchain when test with mock
     │     └── unit                    
-    │       └── RaffleTest.t.sol         # Unit tests
+    │       └── RaffleTest.t.sol           # Unit tests
     ├── lib
-        ├── forge-std/                   # Foundry standard library
-    ├── foundry.toml                     # Foundry configuration
-    ├── Makefile                         # Build commands
-    └── README.md                        # This entire text documents file
+        ├── forge-std/                     # Foundry standard library
+        ├── chainlink-brownie-contracts/
+    ├── foundry.toml                       # Foundry configuration
+    ├── Makefile                           # Build commands
+    └── README.md                          # This entire text documents file
 
 ## Smart Contract Architecture
 ### Raffle Contract
