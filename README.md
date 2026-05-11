@@ -192,6 +192,7 @@ The main raffle contract implementation:
 
 ### Chainlink Integration
 * ****VRF (Verifiable Random Function):**** Provides cryptographically secure randomness
+* ****Automation:****
 
 ### Testing
 
