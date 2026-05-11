@@ -208,6 +208,9 @@ The project includes intensive tests covering:
 * Edge cases and error handling.
 
 Run tests with different verbosity levels:
+```shell
+  forge test                    # Standard output
+```
 
 
 ## Security Considerations
