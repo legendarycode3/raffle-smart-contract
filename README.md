@@ -173,7 +173,7 @@ Create a .env file with the following variables:
     ├── script                         #  deployment, configuration, and interaction scripts directory
     │   ├── DeployRaffle.s.sol         # Main deployment script
     │   ├── HelperConfig.s.sol         # configuration script
-    │   └── Interaction.s.sol          # Chainlink interaction scripts
+    │   └── Interaction.s.sol          # Chainlink interaction scripts (VRF subscription management)
     ├── src                            # Smart contracts directory 
     │   └── Raffle.sol                 # Smart contracts main source code
     └── test                           # Test files directory
