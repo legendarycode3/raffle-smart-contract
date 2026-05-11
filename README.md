@@ -72,6 +72,9 @@ The project is a decentralized Raffle/Lottery system which :
   * Change account name in Makefile to the name of your desired encrypted key.
     * change "--account defaultKey" to "--account <YOUR_ENCRYPTED_KEY_NAME>" , if tryint to deploy on `sepolia testnet network` rather than `anvil`
     * check encrypted key names stored locally with:
+  ```shell
+      cast wallet list
+  ```
 
 ## Usage
 ### Building the Project
