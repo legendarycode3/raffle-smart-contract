@@ -222,6 +222,8 @@ Run tests with different verbosity levels:
 * Chain ID: 31337
 * Default funded accounts available already
 
+### Sepolia Testnet
+
 
 ## Security Considerations
 * The contract securely transfers Ether to the winner only if it ensures the contract has sufficient balance before processing the transfer.
