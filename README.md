@@ -234,6 +234,7 @@ Run tests with different verbosity levels:
 * Executes checks-effects-interactions smart contract pattern.
 * Fulfils State changes before external calls to prevent reentrancy.
 * Intensive test coverage covers edge cases.
+* All Raffle randomness is generated using Chainlink VRF service.
 * Consider professional audit before mainnet deployment.
 
 ## Gas Optimization
