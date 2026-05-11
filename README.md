@@ -225,6 +225,7 @@ Run tests with different verbosity levels:
 ### Sepolia Testnet
 * Requires SEPOLIA_RPC_URL in `.env`
 * Requires a testnet sepoliaETH for deployment
+* Contracts are verified on Etherscan automatically (E.g sepolia.ethscan.io)
 
 
 ## Security Considerations
