@@ -218,6 +218,7 @@ Run tests with different verbosity levels:
 
 ## Network Configuration
 ### Local Development (Anvil)
+* RPC URL:
 
 
 ## Security Considerations
