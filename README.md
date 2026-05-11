@@ -223,6 +223,7 @@ Run tests with different verbosity levels:
 * Default funded accounts available already
 
 ### Sepolia Testnet
+* Requires SEPOLIA_RPC_URL in `.env`
 
 
 ## Security Considerations
