@@ -56,11 +56,12 @@ The project is a decentralized Raffle/Lottery system which :
      forge build
    ```
 ### Environment Setup
-1. Configure your `.env` file:
+1. **Configure your `.env` file:**
    ```shell
       SEPOLIA_RPC_URL=your_sepolia_rpc_url
       ETHERSCAN_SEPOLIA_API_KEY=your_etherscan_api_key
    ```
+2. **Get testnet ETH & LINK:**
 
 ## Usage
 ### Building the Project
