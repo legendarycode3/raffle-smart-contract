@@ -83,6 +83,7 @@ The project is a decentralized Raffle/Lottery system which :
  ⚠️ **Security Warning:**
   * Never commit your `.env` file.
   * Never use your mainnet private key for testing.
+  * Use a separate wallet with only testnet funds.
 
 ## Usage
 ### Building the Project
