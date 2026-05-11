@@ -186,7 +186,8 @@ Create a .env file with the following variables:
     ├── lib
     │   ├── forge-std/                     # Foundry standard library
     │   ├── chainlink-brownie-contracts/   # Chainlink contracts
-        ├── foundry-devops/ 
+    │   ├── foundry-devops/ 
+    │   └── solmate/                       # Optimized utilities
     ├── foundry.toml                       # Foundry configuration
     ├── Makefile                           # Build commands
     └── README.md                          # This entire text documents file
