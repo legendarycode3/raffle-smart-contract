@@ -213,6 +213,7 @@ Run tests with different verbosity levels:
   forge test -v                 # Verbose
   forge test -vv                # More verbose
   forge test -vvv               # Very verbose
+  forge test -vvvv             
 ```
 
 
