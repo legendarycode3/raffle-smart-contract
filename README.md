@@ -198,6 +198,7 @@ The main raffle contract implementation:
 The project includes intensive tests covering:
 * Contract deployment.
 * Raffle entry flow mechanics.
+* Chainlink VRF integration for (randomness).
 
 
 ## Security Considerations
