@@ -33,7 +33,7 @@ The project is a decentralized Raffle/Lottery system which :
 ## Getting Started
 ### Prerequisites
 * [FOUNDRY](https://www.getfoundry.sh/introduction/installation)
-    * 
+    * Verify installation: `forge --version`
 * [GIT](https://git-scm.com/)
     * Verify installation: `git --version`
 
