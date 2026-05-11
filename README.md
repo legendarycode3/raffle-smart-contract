@@ -69,6 +69,7 @@ The project is a decentralized Raffle/Lottery system which :
    * Create a subscription and note the Subscription ID.
    * Fund it with testnet LINK tokens.
 4. **Configure Makefile:**
+  * Change account name in Makefile to the name of your desired encrypted key
 
 ## Usage
 ### Building the Project
