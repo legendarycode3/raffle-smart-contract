@@ -175,7 +175,7 @@ Create a .env file with the following variables:
     │   ├── HelperConfig.s.sol         # Network configuration script
     │   └── Interaction.s.sol          # Chainlink interaction scripts (VRF subscription management)
     ├── src                            # Smart contracts directory 
-    │   └── Raffle.sol                 # Smart contracts main source code
+    │   └── Raffle.sol                 # Smart contracts main source code(raffle contract logic)
     └── test                           # Test files directory
         ├── integration
         │   └── IntegrationTest.t.sol  # Integration tests
