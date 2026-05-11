@@ -202,6 +202,8 @@ The project includes intensive tests covering:
 * Automation functionality.
 * Edge cases and error handling.
 
+Run tests with different verbosity levels:
+
 
 ## Security Considerations
 * The contract securely transfers Ether to the winner only if it ensures the contract has sufficient balance before processing the transfer.
