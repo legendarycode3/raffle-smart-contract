@@ -18,7 +18,7 @@ The project is a decentralized Raffle/Lottery system which :
 * ****Automated Execution (Chainlink Automation):**** Chainlink Automation triggers winner selection  based on specific triggers at predetermined intervals. Uses automated, time-based triggers to close the raffle and initiate the winner selection process without requiring human intervention.
 * ****Automated Prize Distribution:****  Automatically sends the accumulated prize pool to the winning address immediately upon drawing the winner, ensuring guaranteed payouts.
 * ****Raffle State Management:**** Define distinct states, such as `OPEN`, `CALCULATING` (drawing), and `CLOSED` , to prevent entries after the deadline and manage the lifecycle of the raffle.
-* ****Custom Solidity errors:**** 
+* ****Custom Solidity errors:****  gas-efficient custom errors replace `require` string messages .
 * ****Programmatic subscription management:**** Foundry interaction scripts automate creating, funding, and registering the VRF subscription, so the full setup is reproducible in one command.
 * ****Gas Optimization:**** Developed with smart contract best practices for gas efficiency, to reduce cost.
 * ****Transparency & Auditability:**** All participants, ticket purchases, and winner selections are recorded on a public ledger, allowing anyone to verify the results.
