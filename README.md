@@ -137,7 +137,7 @@ You can estimate how much gas things cost by running:
     cast --help
   ```
 
-### Interaction
+### Interaction (Interact with Contract)
 Enter the raffle:
   ```shell
     cast send <RAFFLE_ADDRESS> "enterRaffle()" --value 0.01ether --rpc-url $SEPOLIA_RPC_URL --account yourEncryptedAccount
