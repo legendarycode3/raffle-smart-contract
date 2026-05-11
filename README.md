@@ -156,6 +156,7 @@ Example interactions using `cast` (Foundry's CLI tool):
   ```shell
     cast call <RAFFLE_ADDRESS> "getRecentWinner()" --rpc-url $SEPOLIA_RPC_URL
   ```
+* Check if automation should trigger:
 
 ## How It Works (Simple Flow)
 1. ****Entry Raffle(Phase):**** Players can send the required entrance fee to the contract to join the current raffle round, by calling `enterRaffle()`. The players addresses are stored in an array. What happens here:
