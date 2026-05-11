@@ -195,6 +195,7 @@ The main raffle contract implementation:
 * ****Automation:**** Enables trustless execution of raffle draws based on time intervals.
 
 ### Testing
+The project includes intensive tests covering:
 
 
 ## Security Considerations
