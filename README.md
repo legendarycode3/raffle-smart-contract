@@ -184,7 +184,7 @@ Create a .env file with the following variables:
     │     └── unit                    
     │       └── RaffleTest.t.sol         # Unit tests
     ├── lib
-        ├── forge-std/ 
+        ├── forge-std/                   # Foundry standard library
     ├── foundry.toml                     # Foundry configuration
     ├── Makefile                         # Build commands
     └── README.md                        # This entire text documents file
