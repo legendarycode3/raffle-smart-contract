@@ -33,7 +33,9 @@ The project is a decentralized Raffle/Lottery system which :
 ## Getting Started
 ### Prerequisites
 * [FOUNDRY](https://www.getfoundry.sh/introduction/installation)
+    * 
 * [GIT](https://git-scm.com/)
+    * Verify installation: `git --version`
 
 ### Installation
 1. Clone the repository:
