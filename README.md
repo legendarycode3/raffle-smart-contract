@@ -189,6 +189,7 @@ Create a .env file with the following variables:
 ## Smart Contract Architecture
 ### Raffle Contract
 The main raffle contract implementation:
+* Entry raffle fee payment.
 
 ### Chainlink Integration
 * ****VRF (Verifiable Random Function):**** Provides cryptographically secure randomness.
