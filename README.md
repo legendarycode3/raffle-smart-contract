@@ -210,7 +210,7 @@ The project includes intensive tests covering:
 Run tests with different verbosity levels:
 ```shell
   forge test                    # Standard output
-  forge test -v                 
+  forge test -v                 # Verbose
 ```
 
 
