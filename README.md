@@ -70,7 +70,8 @@ The project is a decentralized Raffle/Lottery system which :
    * Fund it with testnet LINK tokens.
 4. **Configure Makefile:**
   * Change account name in Makefile to the name of your desired encrypted key.
-    * change "--account defaultKey" to "--account <YOUR_ENCRYPTED_KEY_NAME>" 
+    * change "--account defaultKey" to "--account <YOUR_ENCRYPTED_KEY_NAME>"
+    * check encrypted key names stored locally with:
 
 ## Usage
 ### Building the Project
