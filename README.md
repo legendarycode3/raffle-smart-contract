@@ -164,6 +164,7 @@ Example interactions using `cast` (Foundry's CLI tool):
   ```shell
     cast call <RAFFLE_ADDRESS> "getPlayer(0)" --rpc-url $SEPOLIA_RPC_URL
   ```
+Or Interact with Raffle contract deployed on sepolia testnet , directly (from [Sepolia Etherscan](https://sepolia.etherscan.io/) 
   
 
 ## How It Works (Simple Flow)
