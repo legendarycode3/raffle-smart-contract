@@ -196,7 +196,8 @@ The main raffle contract implementation:
 
 ### Testing
 The project includes intensive tests covering:
-* Contract deployment
+* Contract deployment.
+* Raffle entry flow mechanics.
 
 
 ## Security Considerations
