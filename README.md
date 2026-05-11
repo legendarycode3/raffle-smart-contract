@@ -65,8 +65,9 @@ The project is a decentralized Raffle/Lottery system which :
    * ETH Sepolia Faucet: [Eth Sepolia Faucet](https://cloud.google.com/application/web3/faucet/ethereum/sepolia) .
    * Link testnet faucets: [Link Testnet Faucet](https://faucets.chain.link/)
 3. **Fund Chainlink VRF Subscription:**
-   * Visit [VRF Chain Link](https://vrf.chain.link/) with your SepoliaEth obtained (always use burner wallet)
-   * Create a subscription and note the Subscription ID
+   * Visit [VRF Chain Link](https://vrf.chain.link/) with your SepoliaEth obtained (always use burner wallet).
+   * Create a subscription and note the Subscription ID.
+   * Fund it with testnet LINK tokens.
 
 ## Usage
 ### Building the Project
