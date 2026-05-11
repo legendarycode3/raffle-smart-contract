@@ -216,6 +216,9 @@ Run tests with different verbosity levels:
   forge test -vvvv              # Maximum verbosity
 ```
 
+## Network Configuration
+### Local Development (Anvil)
+
 
 ## Security Considerations
 * The contract securely transfers Ether to the winner only if it ensures the contract has sufficient balance before processing the transfer.
@@ -230,7 +233,6 @@ Run tests with different verbosity levels:
 * Implemented custom errors for gas efficiency.
 * Efficient storage patterns.
 
-## Network Configuration
 
 ## Makefile
 A Makefile is included to streamline commands for cleaning, building, testing, updating, formatting, deployment, and
