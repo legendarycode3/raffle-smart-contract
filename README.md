@@ -188,7 +188,8 @@ Create a .env file with the following variables:
 
 ## Smart Contract Architecture
 ### Raffle Contract
-## Chainlink Integration
+### Chainlink Integration
+### Testing
 
 
 ## Security Considerations
