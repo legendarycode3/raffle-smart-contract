@@ -181,8 +181,8 @@ Create a .env file with the following variables:
         │   └── IntegrationTest.t.sol  # Integration tests
         ├── mocks                      # development/testing contract directory
         │   └── LinkToken.sol          # dummy testing contract designed to simulate the real Chainlink LINK token on a local blockchain when test with mock
-        └── unit
-            └── RaffleTest.t.sol
+        └── unit                    
+            └── RaffleTest.t.sol       # Unit tests
         ├── foundry.toml               # Foundry configuration
         ├── Makefile                   # Build commands
         └── README.md                  # This entire text documents file
