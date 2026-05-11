@@ -188,6 +188,8 @@ Create a .env file with the following variables:
 
 ## Smart Contract Architecture
 ### Raffle Contract
+## Chainlink Integration
+
 
 ## Security Considerations
 * The contract securely transfers Ether to the winner only if it ensures the contract has sufficient balance before processing the transfer.
