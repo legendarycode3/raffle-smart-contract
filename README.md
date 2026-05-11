@@ -211,6 +211,7 @@ Run tests with different verbosity levels:
 ```shell
   forge test                    # Standard output
   forge test -v                 # Verbose
+  forge test -vv                
 ```
 
 
