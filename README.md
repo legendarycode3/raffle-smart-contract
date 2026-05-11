@@ -64,6 +64,7 @@ The project is a decentralized Raffle/Lottery system which :
 2. **Get testnet ETH & LINK:**
    * ETH Sepolia Faucet: [Eth Sepolia Faucet](https://cloud.google.com/application/web3/faucet/ethereum/sepolia) .
    * Link testnet faucets: [Link Testnet Faucet](https://faucets.chain.link/)
+3. **Fund Chainlink VRF Subscription:**
 
 ## Usage
 ### Building the Project
