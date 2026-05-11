@@ -230,6 +230,8 @@ Run tests with different verbosity levels:
 * Implemented custom errors for gas efficiency.
 * Efficient storage patterns.
 
+## Network Configuration
+
 ## Makefile
 A Makefile is included to streamline commands for cleaning, building, testing, updating, formatting, deployment, and
 more. You can use it to execute tasks without needing to remember specific commands. Just run the command you need like this:
