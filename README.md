@@ -193,6 +193,7 @@ The main raffle contract implementation:
 * Player registration for the raffle commencement.
 * Integration with Chainlink VRF to activate random winner selection.
 * Integration with Chainlink Automation for automated, decentralized , periodic draws.
+* Raffle Winner Prize distribution.
 
 ### Chainlink Integration
 * ****VRF (Verifiable Random Function):**** Provides cryptographically secure randomness.
