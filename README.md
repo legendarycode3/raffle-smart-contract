@@ -68,6 +68,7 @@ The project is a decentralized Raffle/Lottery system which :
    * Visit [VRF Chain Link](https://vrf.chain.link/) with your SepoliaEth obtained (always use burner wallet).
    * Create a subscription and note the Subscription ID.
    * Fund it with testnet LINK tokens.
+4. **Configure Makefile:**
 
 ## Usage
 ### Building the Project
