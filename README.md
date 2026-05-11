@@ -184,6 +184,7 @@ Create a .env file with the following variables:
         └── unit
             └── RaffleTest.t.sol
         ├── foundry.toml             # Foundry configuration
+        ├── Makefile     
         └── README.md                # This entire text documents
 
 ## Smart Contract Architecture
