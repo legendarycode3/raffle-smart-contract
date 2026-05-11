@@ -92,7 +92,7 @@ Compile the smart contracts:
   ```shell
      make build
   ```
-### Deploy
+### Deployment
 Deploy to Sepolia testnet:
   ```shell
     make deploy-sepolia
@@ -160,7 +160,10 @@ Example interactions using `cast` (Foundry's CLI tool):
   ```shell
     cast call <RAFFLE_ADDRESS> "checkUpkeep(0x)" --rpc-url $SEPOLIA_RPC_URL
   ```
-* Get any player :
+* Get any player on a specific index:
+  ```shell
+    cast call <RAFFLE_ADDRESS> "getPlayer(0)" --rpc-url $SEPOLIA_RPC_URL
+  ```
   
 
 ## How It Works (Simple Flow)
