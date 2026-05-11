@@ -2,6 +2,7 @@
 # Proveably Random Raffle Smart Contracts
 ​A decentralized raffle application built with Solidity and Foundry, utilizing Chainlink VRF for provably fair randomness and automated winner selection.
 
+## Table of Contents
 
 ## Project Overview
 The project is a decentralized Raffle/Lottery system which :
