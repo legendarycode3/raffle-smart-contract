@@ -224,6 +224,7 @@ Run tests with different verbosity levels:
 
 ### Sepolia Testnet
 * Requires SEPOLIA_RPC_URL in `.env`
+* Requires a testnet sepoliaETH for deployment
 
 
 ## Security Considerations
