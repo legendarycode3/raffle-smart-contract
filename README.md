@@ -85,6 +85,7 @@ The project is a decentralized Raffle/Lottery system which :
   * Never use your mainnet private key for testing.
   * Use a separate wallet with only testnet funds.
 
+
 ## Usage
 ### Building the Project
 Compile the smart contracts:
@@ -139,14 +140,16 @@ You can estimate how much gas things cost by running:
 
 ### Interaction (Interact with Contract)
 Example interactions using `cast` (Foundry's CLI tool):
-Enter the raffle:
+* Enter the raffle by sending entrance fee:
   ```shell
     cast send <RAFFLE_ADDRESS> "enterRaffle()" --value 0.01ether --rpc-url $SEPOLIA_RPC_URL --account yourEncryptedAccount
   ```
-Check raffle state:
+* Check raffle state:
   ```shell
     cast call <RAFFLE_ADDRESS> "getRaffleState()" --rpc-url $SEPOLIA_RPC_URL
   ```
+* Check raffle entrance fee:
+
 ## How It Works (Simple Flow)
 1. ****Entry Raffle(Phase):**** Players can send the required entrance fee to the contract to join the current raffle round, by calling `enterRaffle()`. The players addresses are stored in an array. What happens here:
     * Checks if a player entry fee is enough.
