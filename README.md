@@ -149,6 +149,9 @@ Example interactions using `cast` (Foundry's CLI tool):
     cast call <RAFFLE_ADDRESS> "getRaffleState()" --rpc-url $SEPOLIA_RPC_URL
   ```
 * Check raffle entrance fee:
+  ```shell
+    cast call <RAFFLE_ADDRESS> "getEntranceFee()" --rpc-url $SEPOLIA_RPC_URL
+  ```
 
 ## How It Works (Simple Flow)
 1. ****Entry Raffle(Phase):**** Players can send the required entrance fee to the contract to join the current raffle round, by calling `enterRaffle()`. The players addresses are stored in an array. What happens here:
