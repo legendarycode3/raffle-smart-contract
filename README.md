@@ -302,7 +302,8 @@ Run tests with different verbosity levels:
 ### Audit Status
 ⚠️ Contract has not been audited yet. 
 For production use, consider:
-* Professional security audit
+* Professional security audit.
+* Bug bounty program.
 
 ## Gas Optimization
 * Optimized iteration and data structure operations.
