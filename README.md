@@ -196,7 +196,7 @@ Or Interact with Raffle contract deployed on sepolia testnet:
 
 ## Smart Contract Details
 ### Main Functions
-* ****`constructor(...)`:**** Initializes the raffle configuration and Chainlink VRF setup. Sets the entrance fee, raffle interval, VRF coordinator
+* ****`constructor(...)`:**** Initializes the raffle configuration and Chainlink VRF setup. Sets the `entrance fee`, `raffle interval`, `VRF coordinator details`, `subscription ID`, `callback gas limit`, `initializes the timestamp`, and opens the raffle.
 * ****`enterRaffle()`:**** Enter the raffle after paying the entrance fee
 * ****`checkUpkeep()`:**** Ensures to Check if raffle conditions are met for winner selection  
 * ****`performUpkeep()`:**** Initiate / Triggers the winner selection process
