@@ -300,6 +300,7 @@ Run tests with different verbosity levels:
 * Consider professional audit before mainnet deployment.
 
 ### Audit Status
+⚠️ Contract has not been audited. 
 
 ## Gas Optimization
 * Optimized iteration and data structure operations.
