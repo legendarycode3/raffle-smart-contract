@@ -299,6 +299,8 @@ Run tests with different verbosity levels:
 * All Raffle randomness is generated using Chainlink VRF service.
 * Consider professional audit before mainnet deployment.
 
+### Audit Status
+
 ## Gas Optimization
 * Optimized iteration and data structure operations.
 * Implemented custom errors for gas efficiency.
