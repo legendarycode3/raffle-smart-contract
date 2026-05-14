@@ -205,7 +205,7 @@ Constructor Parameters:
 | `interval` | 	Time (in seconds) between raffle draws |
 | `enteranceFee` | 	Amount of ETH required to enter the raffle	|
 | `callbackGasLimit` | Max gas to use for fulfillRandomWords() callback	 |
-| `vrfCoordinator` | 	 |
+| `vrfCoordinator` | Address of the Chainlink VRF coordinator for your network	 |
 
 
 ## Smart Contract Details
