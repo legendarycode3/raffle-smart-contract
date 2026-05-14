@@ -201,7 +201,7 @@ Constructor Parameters:
 | Parameter | Description |
 | --- | --- |
 | `_subscriptionId` | Chainlink VRF v2.5 subscription ID |
-| `gasLane` | Show file differences that haven't been staged |
+| `gasLane` | KeyHash to define the max gas price for VRF |
 
 
 ## Smart Contract Details
