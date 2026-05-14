@@ -200,7 +200,7 @@ Or Interact with Raffle contract deployed on sepolia testnet:
 Constructor Parameters:
 | Parameter | Description |
 | --- | --- |
-| `_subscriptionId` | List all new or modified files |
+| `_subscriptionId` | Chainlink VRF v2.5 subscription ID |
 | git diff | Show file differences that haven't been staged |
 
 
