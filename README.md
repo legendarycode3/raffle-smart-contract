@@ -201,7 +201,7 @@ Constructor Parameters:
 | Parameter | Description |
 | --- | --- |
 | `_subscriptionId` | Chainlink VRF v2.5 subscription ID |
-| git diff | Show file differences that haven't been staged |
+| `gasLane` | Show file differences that haven't been staged |
 
 
 ## Smart Contract Details
