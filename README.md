@@ -196,6 +196,12 @@ Or Interact with Raffle contract deployed on sepolia testnet:
     * Timestamp is reset.
     * State goes back to OPEN.
 
+| Command | Description |
+| --- | --- |
+| git status | List all new or modified files |
+| git diff | Show file differences that haven't been staged |
+
+
 ## Smart Contract Details
 ### Main Functions
 * ****`constructor(...)`:**** Initializes the raffle configuration and Chainlink VRF setup. Sets the `entrance fee`, `raffle interval`, `VRF coordinator details`, `subscription ID`, `callback gas limit`, `initializes the timestamp`, and opens the raffle.
