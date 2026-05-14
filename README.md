@@ -196,6 +196,7 @@ Or Interact with Raffle contract deployed on sepolia testnet:
     * Timestamp is reset.
     * State goes back to OPEN.
 
+## Deployment Parameters
 | Command | Description |
 | --- | --- |
 | git status | List all new or modified files |
