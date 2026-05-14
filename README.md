@@ -3,6 +3,10 @@
 ​A decentralized raffle application built with Solidity and Foundry, utilizing Chainlink VRF for provably fair randomness and automated winner selection. Contract for Creating and managing a raffle where participants enter by sending ETH, and a winner is randomly selected.
 
 ## Table of Contents
+* [Installation](#installation)
+* [Usage](#usage)
+
+## Installation
 
 ## Project Overview
 The project is a decentralized Raffle/Lottery system which :
