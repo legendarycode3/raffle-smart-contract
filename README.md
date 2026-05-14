@@ -4,9 +4,8 @@
 
 ## Table of Contents
 * [Installation](#installation)
-* [Usage](#usage)
+* [Project Overview](#Project Overview)
 
-## Installation
 
 ## Project Overview
 The project is a decentralized Raffle/Lottery system which :
