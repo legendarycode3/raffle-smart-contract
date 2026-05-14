@@ -204,7 +204,7 @@ Constructor Parameters:
 | `gasLane` | KeyHash to define the max gas price for VRF |
 | `interval` | 	Time (in seconds) between raffle draws |
 | `enteranceFee` | 	Amount of ETH required to enter the raffle	|
-| `callbackGasLimit` | 	 |
+| `callbackGasLimit` | Max gas to use for fulfillRandomWords() callback	 |
 
 
 ## Smart Contract Details
