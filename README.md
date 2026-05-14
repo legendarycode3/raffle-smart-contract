@@ -4,7 +4,7 @@
 
 ## Table of Contents
 * [Installation](#installation)
-* [Project Overview](#Project Overview)
+* [Features](#Features)
 
 
 ## Project Overview
