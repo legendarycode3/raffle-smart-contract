@@ -26,7 +26,7 @@ The project is a decentralized Raffle/Lottery system which :
 * ****Intensive Testing:**** Includes several  testing mechanism. They include: unit tests, integration tests, and fork tests.
 * ****Blockchain Transparency:**** Every transaction and role assignment is recorded on the Ethereum blockchain for transparency.
 * ****Multi-Network Support:**** Deployable on localhost (Anvil) and Sepolia Eth testnet.
-* ****Time-Based Draws:****
+* ****Time-Based Draws:**** Uses a configurable time interval between raffles.
   
 ## Technology Stack (Technologies Used)
 * ****Solidity**** : The programming language for writing the Smart contracts.
