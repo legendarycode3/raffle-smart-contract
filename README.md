@@ -203,8 +203,8 @@ Constructor Parameters:
 | `_subscriptionId` | Chainlink VRF v2.5 subscription ID |
 | `gasLane` | KeyHash to define the max gas price for VRF |
 | `interval` | 	Time (in seconds) between raffle draws |
-| `enteranceFee` | 	Amount of ETH required to enter the raffle	 |
-
+| `enteranceFee` | 	Amount of ETH required to enter the raffle	|
+| `callbackGasLimit` | 	 |
 
 
 ## Smart Contract Details
