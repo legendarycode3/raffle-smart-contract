@@ -200,7 +200,7 @@ Or Interact with Raffle contract deployed on sepolia testnet:
 Constructor Parameters:
 | Parameter | Description |
 | --- | --- |
-| git status | List all new or modified files |
+| `_subscriptionId` | List all new or modified files |
 | git diff | Show file differences that haven't been staged |
 
 
