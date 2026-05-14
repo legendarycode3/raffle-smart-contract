@@ -197,6 +197,7 @@ Or Interact with Raffle contract deployed on sepolia testnet:
     * State goes back to OPEN.
 
 ## Deployment Parameters
+Constructor Parameters:
 | Command | Description |
 | --- | --- |
 | git status | List all new or modified files |
