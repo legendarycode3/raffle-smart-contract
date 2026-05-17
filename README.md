@@ -344,8 +344,8 @@ more. You can use it to execute tasks without needing to remember specific comma
 ### LegendaryCode  
 * LinkedIn: [@legendarycode3](https://www.linkedin.com/legendarycode3)
 * Twitter: [@legendary_code_](https://x.com/legendary_code_)
-* Github: [@legendarycode3](https://github.com/legendarycode3)
-Feel free to explore and improve the project. Contributions, issues, and feature requests are welcome!  ❤️
+* Github: [@legendarycode3](https://github.com/legendarycode3)   </br>
+Finally, Feel free to explore and improve the project. Contributions, issues, and feature requests are welcome!  ❤️
 
 ## Conclusion
 This project demonstrates how smart contracts on the Ethereum blockchain can enable decentralized and trustless raffle systems. The transparency and immutability of the blockchain ensure fairness through the blockchain technology.
