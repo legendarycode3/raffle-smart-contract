@@ -319,6 +319,7 @@ Run tests with different verbosity levels:
 * RPC URL: `http://localhost:8545`
 * Chain ID: `31337`
 * VRF Mock: `VRFCoordinatorV2_5Mock`
+* Entrance Fee:
   Default funded accounts available already
 
 
