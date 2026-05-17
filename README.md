@@ -243,6 +243,7 @@ Constructor Parameters:
 
 ### Support Contracts:
 * ****`DeployRaffle.s.sol`:**** Deployment script. The deployment script is an automation file that pushes the compiled smart contract to the blockchain and sets up its initial configurations.
+* ****`HelperConfig.sol`:****
 
 ## Configuration
 Create a .env file with the following variables:
