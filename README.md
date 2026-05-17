@@ -243,7 +243,7 @@ Constructor Parameters:
 
 ### Support Contracts:
 * ****`DeployRaffle.s.sol`:**** Deployment script. The deployment script is an automation file that pushes the compiled smart contract to the blockchain and sets up its initial configurations.
-* ****`HelperConfig.sol`:**** Network configuration management. The HelperConfig script (typically named HelperConfig.s.sol) is the utility script used  to manage and provide deployment parameters (such as
+* ****`HelperConfig.sol`:**** Network configuration management. The HelperConfig script (typically named HelperConfig.s.sol) is the utility script used  to manage and provide deployment parameters (E.G such as RPC URLs, Chainlink oracle addresses, and initial fees) based on the specific
 * ****`RaffleTest.t.sol`:**** Test suite.
 
 ## Configuration
