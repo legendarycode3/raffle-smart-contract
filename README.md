@@ -327,6 +327,19 @@ Run tests with different verbosity levels:
   * Anvil provides pre-funded test accounts by default.
 
 ## Custom Errors
+* `Raffle__SendMoreEThToEnterRaffle()`
+
+## Gas Optimization
+* Optimized iteration and data structure operations.
+* Implemented custom errors for gas efficiency.
+* Efficient storage patterns.
+
+## Makefile
+A Makefile is included to streamline commands for cleaning, building, testing, updating, formatting, deployment, and
+more. You can use it to execute tasks without needing to remember specific commands. Just run the command you need like this:
+  ```shell
+   make <command>
+  ```
 
 ## Security Considerations
 * The contract securely transfers Ether to the winner only if it ensures the contract has sufficient balance before processing the transfer.
@@ -344,18 +357,6 @@ For production use, consider:
 * Professional security audit.
 * Bug bounty program.
 
-## Gas Optimization
-* Optimized iteration and data structure operations.
-* Implemented custom errors for gas efficiency.
-* Efficient storage patterns.
-
-
-## Makefile
-A Makefile is included to streamline commands for cleaning, building, testing, updating, formatting, deployment, and
-more. You can use it to execute tasks without needing to remember specific commands. Just run the command you need like this:
-```shell
-   make <command>
-```
 
 ## Learn More (Resources)
 * [Solidity Documentation](https://docs.soliditylang.org/en/v0.8.35-pre.1/)
