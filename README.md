@@ -323,7 +323,7 @@ Run tests with different verbosity levels:
 * Interval: `30 seconds`
 
 ****NOTE:****
-
+  * Uses VRFCoordinatorV2_5Mock for local testing.
 
 
 ## Security Considerations
