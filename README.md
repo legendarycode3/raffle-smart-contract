@@ -216,14 +216,14 @@ Constructor Parameters:
 
 ### Main Contract: `Raffle.sol`
 
-### Key Functions
+### Key Functions:
 * ****`constructor(...)`:**** Initializes the raffle configuration and Chainlink VRF setup. Sets the `entrance fee`, `raffle interval`, `VRF coordinator details`, `subscription ID`, `callback gas limit`, `initializes the timestamp`, and opens the raffle.
 * ****`enterRaffle()`:**** Enter the raffle after paying the entrance fee
 * ****`checkUpkeep()`:**** Ensures to Check if raffle conditions are met for winner selection  
 * ****`performUpkeep()`:**** Initiate / Triggers the winner selection process
 * ****`fulfillRandomWords()`:**** Randomness request fulfillment function. Callback function for Chainlink VRF
 
-### View Functions
+### View Functions:
 * ****`getEntranceFee()`:**** Returns the minimum ETH required to enter the raffle.
 * ****`getRaffleState()`:****  Returns the current state of the raffle (e.g., OPEN, CALCULATING).
 * ****`getPlayer(uint256)`:**** Returns the address of a player given their index.
@@ -240,6 +240,8 @@ Constructor Parameters:
 * ****`i_callbackGasLimit`:**** The maximum gas allowed for the callback function (e.g., fulfillRandomWords).
 * ****`s_players`:****  Array of players allowed to receive ETH, managed privately (e.g Array of participants).
 * ****`s_recentWinner`:**** Address of the last winner.
+
+### Support Contracts
 
 ## Configuration
 Create a .env file with the following variables:
