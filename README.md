@@ -335,6 +335,7 @@ Run tests with different verbosity levels:
 * Intensive test coverage covers edge cases.
 * All Raffle randomness is generated using Chainlink VRF service.
 * Consider professional audit before mainnet deployment.
+* Immutable variables for gas optimization
 
 ### Audit Status
 ⚠️ Contract has not been audited yet. 
