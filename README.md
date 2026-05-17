@@ -235,7 +235,7 @@ Constructor Parameters:
 * ****`i_keyHash`:****  The key hash for the Chainlink VRF Coordinator, identifying the gas lane.
 * ****`i_subscriptionId`:**** Subscription ID assigned by Chainlink/external service at deploymen.
 * ****`i_callbackGasLimit`:**** The maximum gas allowed for the callback function (e.g., fulfillRandomWords).
-* ****`s_players`:****  Array of players allowed to receive ETH, managed privately.
+* ****`s_players`:****  Array of players allowed to receive ETH, managed privately (e.g Array of participants).
 
 ## Configuration
 Create a .env file with the following variables:
