@@ -321,7 +321,8 @@ Run tests with different verbosity levels:
 * VRF Mock: `VRFCoordinatorV2_5Mock`
 * Entrance Fee: `0.001 ETH`
 * Interval: `30 seconds`
-  Default funded accounts available already
+
+****NOTE:****
 
 
 
