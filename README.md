@@ -241,7 +241,8 @@ Constructor Parameters:
 * ****`s_players`:****  Array of players allowed to receive ETH, managed privately (e.g Array of participants).
 * ****`s_recentWinner`:**** Address of the last winner.
 
-### Support Contracts
+### Support Contracts:
+* ****`DeployRaffle.s.sol`:****
 
 ## Configuration
 Create a .env file with the following variables:
