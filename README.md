@@ -1,17 +1,19 @@
 ​
 # Proveably Random Raffle Smart Contracts
 ​A decentralized raffle application built with Solidity and Foundry, utilizing Chainlink VRF for provably fair randomness and automated winner selection. Contract for Creating and managing a raffle where participants enter by sending ETH, and a winner is randomly selected. </br>
-This project leverages `Chainlink VRF` to ensure randomness in selecting the raffle winner. This integration provides security and fairness by preventing tampering with the random number generation process.
+
 
 ## Table of Contents
 
 
 ## Project Overview
+This project also leverages `Chainlink VRF` to ensure randomness in selecting the raffle winner. This integration provides security and fairness by preventing tampering with the random number generation process. </br>
 The project is a decentralized Raffle/Lottery system which :
 * Allows Users to enter a raffle , after paying an entrance fee.
 * Winners are selected at random using Chainlink VRF (Verifiable Random Function).
 * A Winner selection is automated using Chainlink Automation (which automatically triggers the draw after a set time or a certain number of participants).
 * The entire prize pool is automatically sent to the winner address, immediately upon drawing the winner, ensuring guaranteed payouts.
+  
 
 
 ## Features
