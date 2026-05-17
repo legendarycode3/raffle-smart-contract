@@ -329,7 +329,7 @@ Run tests with different verbosity levels:
 ## Custom Errors
 * `Raffle__SendMoreEThToEnterRaffle()` - Insufficient entrance fee
 * `Raffle__TransferFailed() - ETH transfer to winner failed
-* `Raffle__RaffleNotOpen()` 
+* `Raffle__RaffleNotOpen()`  - Conditions not met for upkeep
 
 ## Gas Optimization
 * Optimized iteration and data structure operations.
