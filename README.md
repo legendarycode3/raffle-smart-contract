@@ -29,7 +29,7 @@ The project is a decentralized Raffle/Lottery system which :
 * ****Event Logging:**** Emits events for key actions (e.g., WinnerPicked) that allow interfaces to display real-time updates to users on the blockchain.
 * ****Intensive Testing:**** Includes several  testing mechanism. They include: unit tests, integration tests, and fork tests.
 * ****Blockchain Transparency:**** Every transaction and role assignment is recorded on the Ethereum blockchain for transparency.
-* ****Multi-Network Support:**** Deployable on localhost (Anvil) and Sepolia Eth testnet.
+* ****Multi-Network Support:**** Deployable on localhost (Anvil) and Sepolia Eth testnet. Easily deployable across different networks 
 * ****Time-Based Draws:**** Uses a configurable time interval between raffles.
 * ****Security Checks:****  Validates conditions before performing sensitive operations.
   
