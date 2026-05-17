@@ -311,6 +311,7 @@ Run tests with different verbosity levels:
 * Entrance Fee:
 * Interval:
 * VRF Coordinator:
+* Gas Lane:
 
 
 ### Local Development (Anvil)
