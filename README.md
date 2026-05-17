@@ -329,8 +329,8 @@ Run tests with different verbosity levels:
 ## Custom Errors
 * `Raffle__SendMoreEThToEnterRaffle()` - Insufficient entrance fee
 * `Raffle__TransferFailed() - ETH transfer to winner failed
-* `Raffle__RaffleNotOpen()`  - Conditions not met for upkeep
-* `Raffle_UpkeepNotNeeded()`
+* `Raffle__RaffleNotOpen()`  - Raffle is calculating winner (calculating State)
+* `Raffle__UpkeepNotNeeded()` - Conditions not met for upkeep.
 
 ## Gas Optimization
 * Optimized iteration and data structure operations.
