@@ -327,7 +327,7 @@ Run tests with different verbosity levels:
   * Anvil provides pre-funded test accounts by default.
 
 ## Custom Errors
-* `Raffle__SendMoreEThToEnterRaffle()`
+* `Raffle__SendMoreEThToEnterRaffle()` - Insufficient entrance fee
 
 ## Gas Optimization
 * Optimized iteration and data structure operations.
