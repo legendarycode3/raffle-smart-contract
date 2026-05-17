@@ -308,7 +308,8 @@ Run tests with different verbosity levels:
 
 ## Network Configuration
 ### Sepolia Testnet
-* Entrance Fee: 
+* Entrance Fee:
+* Interval:
 
 
 ### Local Development (Anvil)
