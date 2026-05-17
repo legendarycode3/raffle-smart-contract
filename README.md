@@ -320,6 +320,7 @@ Run tests with different verbosity levels:
 * Chain ID: `31337`
 * VRF Mock: `VRFCoordinatorV2_5Mock`
 * Entrance Fee: `0.001 ETH`
+* Interval:
   Default funded accounts available already
 
 
