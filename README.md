@@ -310,6 +310,7 @@ Run tests with different verbosity levels:
 ### Sepolia Testnet
 * Entrance Fee:
 * Interval:
+* VRF Coordinator:
 
 
 ### Local Development (Anvil)
