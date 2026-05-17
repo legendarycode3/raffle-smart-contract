@@ -326,6 +326,7 @@ Run tests with different verbosity levels:
   * Uses `VRFCoordinatorV2_5Mock` for local testing.
   * Anvil provides pre-funded test accounts by default.
 
+## Custom Errors
 
 ## Security Considerations
 * The contract securely transfers Ether to the winner only if it ensures the contract has sufficient balance before processing the transfer.
