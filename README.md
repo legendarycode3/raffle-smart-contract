@@ -236,6 +236,7 @@ Constructor Parameters:
 * ****`i_subscriptionId`:**** Subscription ID assigned by Chainlink/external service at deploymen.
 * ****`i_callbackGasLimit`:**** The maximum gas allowed for the callback function (e.g., fulfillRandomWords).
 * ****`s_players`:****  Array of players allowed to receive ETH, managed privately (e.g Array of participants).
+* ****`s_recentWinner`:****
 
 ## Configuration
 Create a .env file with the following variables:
