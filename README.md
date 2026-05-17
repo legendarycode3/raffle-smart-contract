@@ -328,6 +328,7 @@ Run tests with different verbosity levels:
 
 ## Custom Errors
 * `Raffle__SendMoreEThToEnterRaffle()` - Insufficient entrance fee
+* `Raffle__TransferFailed()
 
 ## Gas Optimization
 * Optimized iteration and data structure operations.
