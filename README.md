@@ -242,7 +242,7 @@ Constructor Parameters:
 * ****`s_recentWinner`:**** Address of the last winner.
 
 ### Support Contracts:
-* ****`DeployRaffle.s.sol`:****
+* ****`DeployRaffle.s.sol`:**** Deployment script.
 
 ## Configuration
 Create a .env file with the following variables:
