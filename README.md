@@ -242,7 +242,7 @@ Constructor Parameters:
 * ****`s_recentWinner`:**** Address of the last winner.
 
 ### Support Contracts:
-* ****`DeployRaffle.s.sol`:**** Deployment script.
+* ****`DeployRaffle.s.sol`:**** Deployment script. The deployment script is an automation file that pushes the compiled smart contract to the blockchain and sets up its initial configurations.
 
 ## Configuration
 Create a .env file with the following variables:
