@@ -252,8 +252,6 @@ Create a .env file with the following variables:
     SEPOLIA_RPC_URL=your_sepolia_rpc_url
     ETHERSCAN_SEPOLIA_API_KEY=your_etherscan_api_key
   ```
-### Sepolia Testnet
-
 
 ## Project Structure
     ├── script                             #  deployment, configuration, and interaction scripts directory
@@ -309,15 +307,15 @@ Run tests with different verbosity levels:
 ```
 
 ## Network Configuration
+### Sepolia Testnet
+* Entrance Fee: 
+
+
 ### Local Development (Anvil)
 * RPC URL: `http://localhost:8545`
 * Chain ID: 31337
 * Default funded accounts available already
 
-### Sepolia Testnet
-* Requires SEPOLIA_RPC_URL in `.env`
-* Requires a testnet sepoliaETH for deployment
-* Contracts are verified on Etherscan automatically (E.g sepolia.ethscan.io)
 
 
 ## Security Considerations
