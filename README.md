@@ -362,7 +362,7 @@ For production use, consider:
 
 
 ## Potential Risks & Assumptions
-* The Chainlink VRF
+* The Chainlink VRF subscription must remain funded.
 
 
 ## Learn More (Resources)
