@@ -370,6 +370,7 @@ For production use, consider:
 
 ## Recommended Practices
 * Fund the Chainlink VRF subscription before deploying to a live network.
+* Monitor the subscription balance regularly.
 
 
 ## Learn More (Resources)
