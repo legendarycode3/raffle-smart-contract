@@ -373,6 +373,7 @@ For production use, consider:
 * Monitor the subscription balance regularly.
 * Test thoroughly on Sepolia before deploying to mainnet.
 * Use a secure private key management solution.
+* Consider adding emergency withdrawal or pause functionality for production deployments.
 
 
 ## Learn More (Resources)
