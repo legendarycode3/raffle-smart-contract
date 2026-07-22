@@ -368,6 +368,9 @@ For production use, consider:
 * If the winner is a contract with a failing fallback function, the transfer may revert.
 
 
+## Recommended Practices
+
+
 ## Learn More (Resources)
 * [Solidity Documentation](https://docs.soliditylang.org/en/v0.8.35-pre.1/)
 * [Foundry Documentation](https://www.getfoundry.sh/)
