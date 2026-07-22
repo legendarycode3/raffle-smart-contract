@@ -367,7 +367,7 @@ For production use, consider:
 * Raffle may become stuck in `CALCULATING` state if Chainlink VRF does not fulfill the randomness request after performUpkeep() is called.
 * The VRF Coordinator address must be correct for the target network.
 * Callback gas limit must be sufficient for `fulfillRandomWords()` to execute winner selection, state reset, event emission, and ETH transfer successfully.
-* Winner transfer may revert if the selected winner is a contract
+* Winner transfer may revert if the selected winner is a contract that rejects ETH transfers, causing
 * Callback gas limit must be sufficient for winner selection and prize transfer.
 * If the winner is a contract with a failing fallback function, the transfer may revert.
 
