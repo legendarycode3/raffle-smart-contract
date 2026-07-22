@@ -374,7 +374,7 @@ For production use, consider:
 * Test thoroughly on Sepolia before deploying to mainnet.
 * Use a secure private key management solution.
 * Consider adding emergency withdrawal or pause functionality for production deployments.
-* Perform a professional security
+* Perform a professional security audit before handling significant funds.
 
 
 ## Learn More (Resources)
