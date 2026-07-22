@@ -361,6 +361,9 @@ For production use, consider:
 * Bug bounty program.
 
 
+## Potential Risks & Assumptions
+
+
 ## Learn More (Resources)
 * [Solidity Documentation](https://docs.soliditylang.org/en/v0.8.35-pre.1/)
 * [Foundry Documentation](https://www.getfoundry.sh/)
