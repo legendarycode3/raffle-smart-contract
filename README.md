@@ -362,6 +362,7 @@ For production use, consider:
 
 
 ## Potential Risks & Assumptions
+* The Chainlink VRF
 
 
 ## Learn More (Resources)
