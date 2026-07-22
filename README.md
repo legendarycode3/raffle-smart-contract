@@ -363,7 +363,7 @@ For production use, consider:
 
 ## Potential Risks & Assumptions
 * The Chainlink VRF subscription must remain funded.
-* The Chainlink VRF subscription must remain adequately funded
+* The Chainlink VRF subscription must remain adequately funded insufficient subscription funding may
 * Raffle may become stuck in `CALCULATING`
 * The VRF Coordinator address must be correct for the target network.
 * Callback gas limit must be sufficient for winner selection and prize transfer.
