@@ -372,6 +372,7 @@ For production use, consider:
 * Fund the Chainlink VRF subscription before deploying to a live network.
 * Monitor the subscription balance regularly.
 * Test thoroughly on Sepolia before deploying to mainnet.
+* Use a secure private key
 
 
 ## Learn More (Resources)
