@@ -363,7 +363,7 @@ For production use, consider:
 
 ## Potential Risks & Assumptions
 * The Chainlink VRF subscription must remain funded.
-* The VRF Coordinator address
+* The VRF Coordinator address must be correct for the target network.
 
 
 ## Learn More (Resources)
