@@ -369,6 +369,7 @@ For production use, consider:
 
 
 ## Recommended Practices
+* Fund the Chainlink VRF subscription
 
 
 ## Learn More (Resources)
