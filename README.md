@@ -369,7 +369,7 @@ For production use, consider:
 * Callback gas limit must be sufficient for `fulfillRandomWords()` to execute winner selection, state reset, event emission, and ETH transfer successfully.
 * Winner transfer may revert if the selected winner is a contract that rejects ETH transfers, causing the callback transaction to fail.
 * Callback gas limit must be sufficient for winner selection and prize transfer.
-* Chainlink Automation execution may be delayed
+* Chainlink Automation execution may be delayed due to keeper availability,
 * If the winner is a contract with a failing fallback function, the transfer may revert.
 
 
