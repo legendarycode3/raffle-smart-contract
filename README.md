@@ -365,6 +365,7 @@ For production use, consider:
 * The Chainlink VRF subscription must remain funded.
 * The VRF Coordinator address must be correct for the target network.
 * Callback gas limit must be sufficient for winner selection and prize transfer.
+* If the winner is a contract with a
 
 
 ## Learn More (Resources)
