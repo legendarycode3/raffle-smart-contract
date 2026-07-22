@@ -363,6 +363,7 @@ For production use, consider:
 
 ## Potential Risks & Assumptions
 * The Chainlink VRF subscription must remain funded.
+* Raffle may become stuck in `CALCULATING`
 * The VRF Coordinator address must be correct for the target network.
 * Callback gas limit must be sufficient for winner selection and prize transfer.
 * If the winner is a contract with a failing fallback function, the transfer may revert.
