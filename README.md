@@ -372,7 +372,7 @@ For production use, consider:
 * Chainlink Automation execution may be delayed due to keeper availability, network congestion, or gas price conditions.
 * If the winner is a contract with a failing fallback function, the transfer may revert.
 * Correct VRF subscription setup is required, including funding the subscription and registering the Raffle contract as an authorized consumer.
-* Immutable configuration values
+* Immutable configuration values such as entrance fee,
 
 
 ## Recommended Practices
