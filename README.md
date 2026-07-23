@@ -346,7 +346,7 @@ more. You can use it to execute tasks without needing to remember specific comma
 
 ## Security Considerations
 * The contract securely transfers Ether to the winner only if it ensures the contract has sufficient balance before processing the transfer.
-* Uses Chainlink VRF for cryptographically secure randomness.
+* ****Secure and Verifiable Randomness****: Uses Chainlink VRF for cryptographically secure randomness.
 * ****Checks-Effects-Interactions Pattern****: Executes checks-effects-interactions smart contract pattern.
 * Fulfils State changes before external calls to prevent reentrancy.
 * Intensive test coverage covers edge cases.
