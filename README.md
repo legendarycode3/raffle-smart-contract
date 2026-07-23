@@ -348,7 +348,6 @@ more. You can use it to execute tasks without needing to remember specific comma
 * ****State Locking During Winner Selection****: The raffle state is changed to `CALCULATING` before requesting randomness, preventing new players from entering while a winner is being determined.
 * ****Secure and Verifiable Randomness****: Uses Chainlink VRF for cryptographically secure randomness. All raffle randomness is generated using Chainlink VRF v2.5, which provides cryptographically secure and tamper-resistant randomness for fair winner selection.
 * ****Checks-Effects-Interactions Pattern****: Executes checks-effects-interactions smart contract pattern.
-* Fulfils State changes before external calls to prevent reentrancy.
 * ****Comprehensive Test Coverage****: The project includes extensive unit and integration tests covering edge cases, state transitions, event emissions, revert conditions, and other raffle execution flow.
 * ****Immutable Configuration Variables****: Critical configuration values are stored as immutable variables, preventing modification after deployment. Immutable variables are used for gas optimization.
 * ****Custom Error Handling****: Custom Errors which reduce gas costs and provide clear revert reasons.
