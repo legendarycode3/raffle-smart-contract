@@ -354,7 +354,7 @@ more. You can use it to execute tasks without needing to remember specific comma
 * Consider professional audit before mainnet deployment.
 * Immutable variables for gas optimization.
 * Custom Errors which reduce gas costs and provide clear revert reasons.
-* ****ETH Transfer Validation****: The contract validates the success of the ETH transfer to the winner and reverts the transaction if the transfer fails,
+* ****ETH Transfer Validation****: The contract validates the success of the ETH transfer to the winner and reverts the transaction if the transfer fails, preventing silent loss of funds.
 
 ### Audit Status
 ⚠️ Contract has not been audited yet. 
