@@ -352,7 +352,7 @@ more. You can use it to execute tasks without needing to remember specific comma
 * Intensive test coverage covers edge cases.
 * All Raffle randomness is generated using Chainlink VRF service.
 * Consider professional audit before mainnet deployment.
-* ****Immutable Configuration Variables****: Critical configuration values are stored as immutable . Immutable variables are used for gas optimization.
+* ****Immutable Configuration Variables****: Critical configuration values are stored as immutable variables, preventing modification after deployment. Immutable variables are used for gas optimization.
 * ****Custom Error Handling****: Custom Errors which reduce gas costs and provide clear revert reasons.
 * ****ETH Transfer Validation****: The contract validates the success of the ETH transfer to the winner and reverts the transaction if the transfer fails, preventing silent loss of funds.
 * ****Sufficient Balance Requirement****: The raffle only proceeds when the contract has a positive ETH balance, ensuring there are funds available for prize distribution.
