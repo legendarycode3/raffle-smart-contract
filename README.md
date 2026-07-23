@@ -350,11 +350,11 @@ more. You can use it to execute tasks without needing to remember specific comma
 * ****Checks-Effects-Interactions Pattern****: Executes checks-effects-interactions smart contract pattern.
 * Fulfils State changes before external calls to prevent reentrancy.
 * ****Comprehensive Test Coverage****: The project includes extensive unit and integration tests covering edge cases, state transitions, event emissions, revert conditions, and other raffle execution flow.
-* Consider professional audit before mainnet deployment.
 * ****Immutable Configuration Variables****: Critical configuration values are stored as immutable variables, preventing modification after deployment. Immutable variables are used for gas optimization.
 * ****Custom Error Handling****: Custom Errors which reduce gas costs and provide clear revert reasons.
 * ****ETH Transfer Validation****: The contract validates the success of the ETH transfer to the winner and reverts the transaction if the transfer fails, preventing silent loss of funds.
 * ****Sufficient Balance Requirement****: The raffle only proceeds when the contract has a positive ETH balance, ensuring there are funds available for prize distribution.
+* ****Professional Audit Recommendation****: 
   
 
 ### Audit Status
