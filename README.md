@@ -352,7 +352,8 @@ more. You can use it to execute tasks without needing to remember specific comma
 * Intensive test coverage covers edge cases.
 * All Raffle randomness is generated using Chainlink VRF service.
 * Consider professional audit before mainnet deployment.
-* Immutable variables for gas optimization
+* Immutable variables for gas optimization.
+* Custom Errors
 
 ### Audit Status
 ⚠️ Contract has not been audited yet. 
