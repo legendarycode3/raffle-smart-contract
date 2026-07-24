@@ -337,7 +337,7 @@ Run tests with different verbosity levels:
 * ****Constant Variables****: Fixed values like `REQUEST_CONFIRMATIONS` and NUM_WORDS are declared as `constant`, eliminating storage costs by embedding their values directly into the contract bytecode.
 * ****Custom Errors:**** Uses custom errors instead of revert strings, reducing deployment size and lowering gas costs whenever transactions revert.
 * ****Efficient Array Reset****: The player array is reset using `new address payable[](0)`, efficiently clearing the participant list for the next raffle round.
-* ****Optimized Storage Access****: Frequently used configuration values are stored as `immutable`,
+* ****Optimized Storage Access****: Frequently used configuration values are stored as `immutable`, while dynamic state variables are
 * Optimized iteration and data structure operations.
 * Implemented custom errors for gas efficiency.
 * Efficient storage patterns.
