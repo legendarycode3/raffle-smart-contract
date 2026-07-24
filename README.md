@@ -334,7 +334,7 @@ Run tests with different verbosity levels:
 
 ## Gas Optimization
 * ****Immutable Variables****: Frequently accessed configuration values such as the entrance fee, raffle interval, VRF key hash, subscription ID, and callback gas limit are declared as `immutable`, reducing storage reads after deployment.
-* ****Constant Variables****: Fixed values like `REQUEST_CONFIRMATIONS` and NUM_WORDS are declared as `constant`, eliminating storage costs by embedding their values directly
+* ****Constant Variables****: Fixed values like `REQUEST_CONFIRMATIONS` and NUM_WORDS are declared as `constant`, eliminating storage costs by embedding their values directly into the contract bytecode.
 * Optimized iteration and data structure operations.
 * Implemented custom errors for gas efficiency.
 * Efficient storage patterns.
