@@ -333,7 +333,7 @@ Run tests with different verbosity levels:
 * `Raffle__UpkeepNotNeeded()` - Conditions not met for upkeep.
 
 ## Gas Optimization
-* ****Immutable Variables****: Frequently accessed configuration
+* ****Immutable Variables****: Frequently accessed configuration values such as the entrance fee,
 * Optimized iteration and data structure operations.
 * Implemented custom errors for gas efficiency.
 * Efficient storage patterns.
