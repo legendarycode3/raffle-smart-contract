@@ -338,7 +338,7 @@ Run tests with different verbosity levels:
 * ****Custom Errors:**** Uses custom errors instead of revert strings, reducing deployment size and lowering gas costs whenever transactions revert.
 * ****Efficient Array Reset****: The player array is reset using `new address payable[](0)`, efficiently clearing the participant list for the next raffle round.
 * ****Optimized Storage Access****: Frequently used configuration values are stored as `immutable`, while dynamic state variables are updated only when necessary to minimize expensive storage operations.
-* ****Efficient State Management****: The contract updates only the required state variables during each raffle cycle,
+* ****Efficient State Management****: The contract updates only the required state variables during each raffle cycle, avoiding unnecessary storage writes
 * Optimized iteration and data structure operations.
 * Implemented custom errors for gas efficiency.
 * Efficient storage patterns.
