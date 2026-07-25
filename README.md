@@ -128,7 +128,7 @@ Test coverage:
     make coverage
   ```
 ### Test Coverage
-The project includes: </br>
+The project includes comprehensive automated testing covering: </br>
 
 ### Format
  ```shell
