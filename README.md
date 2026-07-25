@@ -135,7 +135,7 @@ The project includes comprehensive automated testing covering: </br>
 * **Event Emission Tests** Confirm important events are emitted with the expected parameters.
 * **Revert Condition Tests** Verify the contract correctly reverts on invalid inputs and  unauthorized operations.
 * **Winner Selection Tests** Validate that Chainlink VRF correctly selects a winner,  resets the raffle, and transfers the prize.
-* **End-to-End Flow Tests** Simulate the complete raffle lifecycle
+* **End-to-End Flow Tests** Simulate the complete raffle lifecycle from player entry through winner 
 
 ### Format
  ```shell
