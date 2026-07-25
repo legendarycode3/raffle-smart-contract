@@ -133,6 +133,7 @@ The project includes comprehensive automated testing covering: </br>
 * **Integration Tests**
 * **State Transition Tests**
 * **Event Emission Tests**
+* **Revert Condition Tests**
 
 ### Format
  ```shell
