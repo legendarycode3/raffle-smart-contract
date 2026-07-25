@@ -127,6 +127,8 @@ Test coverage:
   ```shell
     make coverage
   ```
+### Test Coverage
+
 ### Format
  ```shell
     forge fmt
