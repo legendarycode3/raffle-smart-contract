@@ -129,7 +129,7 @@ Test coverage:
   ```
 ### Test Coverage
 The project includes comprehensive automated testing covering: </br>
-* **Unit Tests**
+* **Unit Tests** Verify individual contract functions
 * **Integration Tests**
 * **State Transition Tests**
 * **Event Emission Tests**
