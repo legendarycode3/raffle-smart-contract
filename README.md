@@ -131,6 +131,7 @@ Test coverage:
 The project includes comprehensive automated testing covering: </br>
 * **Unit Tests**
 * **Integration Tests**
+* **State Transition Tests**
 
 ### Format
  ```shell
