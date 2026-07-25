@@ -132,6 +132,7 @@ The project includes comprehensive automated testing covering: </br>
 * **Unit Tests**
 * **Integration Tests**
 * **State Transition Tests**
+* **Event Emission Tests**
 
 ### Format
  ```shell
