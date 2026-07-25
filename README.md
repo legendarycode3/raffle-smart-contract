@@ -130,6 +130,7 @@ Test coverage:
 ### Test Coverage
 The project includes comprehensive automated testing covering: </br>
 * **Unit Tests**
+* **Integration Tests**
 
 ### Format
  ```shell
