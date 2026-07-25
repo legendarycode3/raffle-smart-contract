@@ -135,6 +135,7 @@ The project includes comprehensive automated testing covering: </br>
 * **Event Emission Tests**
 * **Revert Condition Tests**
 * **Winner Selection Tests**
+* **End-to-End Flow Tests**
 
 ### Format
  ```shell
