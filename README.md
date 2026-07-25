@@ -131,7 +131,7 @@ Test coverage:
 The project includes comprehensive automated testing covering: </br>
 * **Unit Tests** Verify individual contract functions  and expected behaviors.
 * **Integration Tests** Validate deployment scripts, VRF subscription creation, and network configuration.
-* **State Transition Tests**
+* **State Transition Tests** Ensure the raffle correctly
 * **Event Emission Tests**
 * **Revert Condition Tests**
 * **Winner Selection Tests**
