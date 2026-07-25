@@ -128,6 +128,7 @@ Test coverage:
     make coverage
   ```
 ### Test Coverage
+The project includes: </br>
 
 ### Format
  ```shell
