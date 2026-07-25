@@ -134,7 +134,7 @@ The project includes comprehensive automated testing covering: </br>
 * **State Transition Tests** Ensure the raffle correctly transitions between `OPEN` and `CALCULATING` states.
 * **Event Emission Tests** Confirm important events are emitted with the expected parameters.
 * **Revert Condition Tests** Verify the contract correctly reverts on invalid inputs and  unauthorized operations.
-* **Winner Selection Tests** Validate that Chainlink VRF
+* **Winner Selection Tests** Validate that Chainlink VRF correctly selects a winner,
 * **End-to-End Flow Tests**
 
 ### Format
