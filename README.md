@@ -130,7 +130,7 @@ Test coverage:
 ### Test Coverage
 The project includes comprehensive automated testing covering: </br>
 * **Unit Tests** Verify individual contract functions  and expected behaviors.
-* **Integration Tests**
+* **Integration Tests** Validate deployment scripts,
 * **State Transition Tests**
 * **Event Emission Tests**
 * **Revert Condition Tests**
