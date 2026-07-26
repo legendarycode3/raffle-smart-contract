@@ -40,7 +40,7 @@ The project is a decentralized Raffle/Lottery system which :
 * ****Chainlink VRF V2.5**** : Tamper-proof random number generator (RNG). 
 * ****OpenZeppelin****: ERC20 implementation for LINK mock.
 * ****Anvil****: Local Ethereum development network used for deployment and testing.
-* ****Forge Standard Library (forge-std)****: Provides testing utilities, Provides testing utilities,  scripting support,
+* ****Forge Standard Library (forge-std)****: Provides testing utilities, Provides testing utilities,  scripting support,  and debugging tools.
 
   
 
