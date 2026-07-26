@@ -38,7 +38,7 @@ The project is a decentralized Raffle/Lottery system which :
 * ****Foundry**** : Development framework and testing suite.
 * ****Chainlink Automation**** : Decentralized, secure, and cost-efficient Web3 services network.
 * ****Chainlink VRF V2.5**** : Tamper-proof random number generator (RNG).
-* ****OpenZeppelin****: ERC20 implementation
+* ****OpenZeppelin****: ERC20 implementation for LINK mock.
 
 ## Getting Started
 ### Prerequisites
