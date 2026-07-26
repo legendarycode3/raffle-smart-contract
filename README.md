@@ -41,7 +41,7 @@ The project is a decentralized Raffle/Lottery system which :
 * ****OpenZeppelin****: ERC20 implementation for LINK mock.
 * ****Anvil****: Local Ethereum development network used for deployment and testing.
 * ****Forge Standard Library (forge-std)****: Provides testing utilities, Provides testing utilities,  scripting support,  and debugging tools.
-* ****Foundry DevOps****: Used to retrieve the most
+* ****Foundry DevOps****: Used to retrieve the most recently deployed contract during deployment
 
   
 
