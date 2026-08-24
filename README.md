@@ -13,6 +13,10 @@ The project is a decentralized Raffle/Lottery system which :
 * Winners are selected at random using Chainlink VRF (Verifiable Random Function).
 * A Winner selection is automated using Chainlink Automation (which automatically triggers the draw after a set time or a certain number of participants).
 * The entire prize pool is automatically sent to the winner address, immediately upon drawing the winner, ensuring guaranteed payouts.
+
+
+
+## Architecture
   
 
 
