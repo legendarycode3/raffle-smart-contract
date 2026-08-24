@@ -17,6 +17,7 @@ The project is a decentralized Raffle/Lottery system which :
 
 
 ## Architecture
+The Raffle system follows a decentralized,
   
 
 
