@@ -58,7 +58,7 @@ The Raffle system follows a decentralized, event-driven architecture where the `
 └─────────────────────────────┘
 ```
 ### Core Components 
-* **Raffle Contract (Raffle.sol)**:
+* **Raffle Contract (Raffle.sol)**: The central component responsible for
   
 
 
