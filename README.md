@@ -18,6 +18,45 @@ The project is a decentralized Raffle/Lottery system which :
 
 ## Architecture
 The Raffle system follows a decentralized, event-driven architecture where the `Raffle` smart contract manages participant entries, raffle state, winner selection, and prize distribution, while Chainlink services provide automation and verifiable randomness.
+
+```shell
+  ┌─────────────────────────────┐
+│           Player            │
+└──────────────┬──────────────┘
+               │
+               │ enterRaffle()
+               ▼
+┌─────────────────────────────┐
+│      Raffle Contract        │
+│                             │
+│  • Player Management        │
+│  • Raffle State             │
+│  • ETH Prize Pool           │
+│  • Winner Selection         │
+└──────────────┬──────────────┘
+               │
+               │ checkUpkeep()
+               ▼
+┌─────────────────────────────┐
+│    Chainlink Automation     │
+└──────────────┬──────────────┘
+               │
+               │ performUpkeep()
+               ▼
+┌─────────────────────────────┐
+│     Chainlink VRF v2.5      │
+└──────────────┬──────────────┘
+               │
+               │ Randomness Callback
+               ▼
+┌─────────────────────────────┐
+│      Raffle Contract        │
+│                             │
+│  • Select Winner            │
+│  • Reset Raffle             │
+│  • Transfer ETH Prize       │
+└─────────────────────────────┘
+```
   
 
 
