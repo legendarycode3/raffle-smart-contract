@@ -59,7 +59,7 @@ The Raffle system follows a decentralized, event-driven architecture where the `
 ```
 ### Core Components 
 * **Raffle Contract (Raffle.sol)**: The central component responsible for accepting entries, maintaining the raffle state, tracking players, requesting randomness, selecting the winner, and distributing the prize.
-* **Players**: Participants enter the raffle by calling `enterRaffle()` and sending at
+* **Players**: Participants enter the raffle by calling `enterRaffle()` and sending at least the configured entrance fee in ETH
   
 
 
