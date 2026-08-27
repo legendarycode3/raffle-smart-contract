@@ -60,8 +60,8 @@ The Raffle system follows a decentralized, event-driven architecture where the `
 ### Core Components 
 * **Raffle Contract (Raffle.sol)**: The central component responsible for accepting entries, maintaining the raffle state, tracking players, requesting randomness, selecting the winner, and distributing the prize.
 * **Players**: Participants enter the raffle by calling `enterRaffle()` and sending at least the configured entrance fee in ETH.
-* **Chainlink Automation**: Monitors the raffle through `checkUpkeep()` and calls performUpkeep() when the configured time interval has passed and the required conditions are satisfied.
-* **Chainlink VRF v2.5**: Provides verifiable randomness after
+* **Chainlink Automation**: Monitors the raffle through `checkUpkeep()` and calls `performUpkeep()` when the configured time interval has passed and the required conditions are satisfied.
+* **Chainlink VRF v2.5**: Provides verifiable randomness after `performUpkeep()` requests a random word.
   
 
 
