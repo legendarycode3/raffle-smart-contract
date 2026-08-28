@@ -63,7 +63,7 @@ The Raffle system follows a decentralized, event-driven architecture where the `
 * **Chainlink Automation**: Monitors the raffle through `checkUpkeep()` and calls `performUpkeep()` when the configured time interval has passed and the required conditions are satisfied.
 * **Chainlink VRF v2.5**: Provides verifiable randomness after `performUpkeep()` requests a random word. The returned random value is used to select the winner.
 * **VRF Subscription**: Provides the resources required for Chainlink VRF requests. The deployed Raffle contract must be registered as a consumer of the subscription.
-* **Deployment & Configuration Scripts**: `DeployRaffle.s.sol` , `HelperConfig.s.sol`, and `Interactions.s.sol` automate network configuration, VRF subscription creation,
+* **Deployment & Configuration Scripts**: `DeployRaffle.s.sol` , `HelperConfig.s.sol`, and `Interactions.s.sol` automate network configuration, VRF subscription creation, subscription funding, contract deployment,
   
 
 
