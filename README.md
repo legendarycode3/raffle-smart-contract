@@ -68,7 +68,7 @@ The Raffle system follows a decentralized, event-driven architecture where the `
 
 ### Raffle Lifecycle
 1. A player calls `enterRaffle()` and pays the required entrance fee.
-2. The ETH is held on the Raffle
+2. The ETH is held on the Raffle contract as the prize pool.
 
 
 ## Features
