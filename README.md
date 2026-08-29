@@ -67,7 +67,7 @@ The Raffle system follows a decentralized, event-driven architecture where the `
 * **Local Mocks**: During local Anvil development, `VRFCoordinatorV2_5Mock` and the custom `LinkToken` mock simulate Chainlink infrastructure for testing.
 
 ### Raffle Lifecycle
-1. A player calls `enterRaffle()`
+1. A player calls `enterRaffle()` and pays the required entrance fee.
 
 
 ## Features
