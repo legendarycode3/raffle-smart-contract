@@ -65,7 +65,8 @@ The Raffle system follows a decentralized, event-driven architecture where the `
 * **VRF Subscription**: Provides the resources required for Chainlink VRF requests. The deployed Raffle contract must be registered as a consumer of the subscription.
 * **Deployment & Configuration Scripts**: `DeployRaffle.s.sol` , `HelperConfig.s.sol`, and `Interactions.s.sol` automate network configuration, VRF subscription creation, subscription funding, contract deployment, and consumer registration.
 * **Local Mocks**: During local Anvil development, `VRFCoordinatorV2_5Mock` and the custom `LinkToken` mock simulate Chainlink infrastructure for testing.
-  
+
+### Raffle Lifecycle
 
 
 ## Features
