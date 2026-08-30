@@ -71,7 +71,7 @@ The Raffle system follows a decentralized, event-driven architecture where the `
 2. The ETH is held on the Raffle contract as the prize pool.
 3. Chainlink Automation evaluates `checkUpKeep()`.
 4. Once the interval has elapsed and the required conditions are satisfied, Autonmation calls `performUpKeep()`.
-5. The state of changes 
+5. The state of changes from `OPEN`  to `CALCULATING`.
 
 
 ## Features
