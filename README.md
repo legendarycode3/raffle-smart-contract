@@ -73,6 +73,7 @@ The Raffle system follows a decentralized, event-driven architecture where the `
 4. Once the interval has elapsed and the required conditions are satisfied, Autonmation calls `performUpKeep()`.
 5. The state of changes from `OPEN`  to `CALCULATING`.
 6. The contract requests a random value from Chainlink VRF v2.5.
+7. Chainlink VRF calls `fulfillRandomWords()`
 
 
 ## Features
