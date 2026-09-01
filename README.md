@@ -74,7 +74,7 @@ The Raffle system follows a decentralized, event-driven architecture where the `
 5. The state of changes from `OPEN`  to `CALCULATING`.
 6. The contract requests a random value from Chainlink VRF v2.5.
 7. Chainlink VRF calls `fulfillRandomWords()` with the verifiable random values.
-8. The contract calculates 
+8. The contract calculates the winning player using 
 
 
 ## Features
