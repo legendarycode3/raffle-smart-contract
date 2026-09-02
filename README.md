@@ -76,6 +76,7 @@ The Raffle system follows a decentralized, event-driven architecture where the `
 7. Chainlink VRF calls `fulfillRandomWords()` with the verifiable random values.
 8. The contract calculates the winning player using the returned random value.
 9. The raffle state is reset to `OPEN` , the player list is cleared, and the timestamp is updated.
+10. The entire ETH balance
 
 
 ## Features
